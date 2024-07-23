@@ -16,4 +16,4 @@
   - github 연동 (git clone [URL])
   - opencv 환경 설정 (sudo apt install libopencv-dev python3-opencv, sudo apt update, sudo apt upgrade)
 
-  - 3차시
+- 3차시
