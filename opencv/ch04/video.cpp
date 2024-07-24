@@ -46,4 +46,4 @@ int main() {
     return 0;
 }
 
-// VMware 상단 메뉴 Player - Removable Devices - 하위 메뉴중 카메라와 관련된 디바이스 선택(Connect)
+// VMware 상단 메뉴 Player - Removable Devices - 하위 메뉴중 카메라와 관련된 디바이스 항목 선택(Connect)
