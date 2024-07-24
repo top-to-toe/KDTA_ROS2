@@ -1,6 +1,7 @@
 #include "opencv2/opencv.hpp"
-#include "opencv2/freetype.hpp"
 #include <iostream>
+#include <chrono>
+#include <thread>
 
 using namespace cv;
 using namespace std;
@@ -18,12 +19,16 @@ int main() {
 
     namedWindow("img");
     imshow("img", img);
-    int fps = 30;
-    int delay = cvRound(1000 / fps);
+    float fps = 30.0;
+    // int delay = cvRound(1000 / fps);
     Scalar a(0, 0, 0);
-
+    TickMeter tm1;
+    TickMeter tm2;
+    
     while(true) {
-        keycode = waitKey(delay);
+        tm1.start();
+        tm2.start();
+        keycode = waitKey(10);
         if(keycode != -1)
             cout << "keycode: " << keycode << endl;
         if(keycode == 27)
@@ -42,6 +47,14 @@ int main() {
             img2 = img + a;
             imshow("img", img2);
         }
+        tm1.stop();
+        cout << "tm1.getFPS(): " << tm1.getFPS() << endl;
+        if(tm1.getFPS() > fps) {
+            auto sleep_duration = static_cast<int>(1000.0 * (tm1.getFPS() - fps) / tm1.getFPS() / fps);
+            this_thread::sleep_for(chrono::milliseconds(sleep_duration));
+        }
+        tm2.stop();
+        cout << "tm2.getFPS(): " << tm2.getFPS() << endl;
     }
 
     return 0;
