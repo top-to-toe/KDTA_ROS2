@@ -18,7 +18,9 @@
 
 - 3차시
   - cmake, make 설치 및 컴파일 용도 사용 (sudo apt cmake, sudo apt make)
-  - matrix, pointer, 
+  - CMakeLists.txt 및 c_cpp_properties.json 작성 (환경설정 관련)
+  - imread 및 imshow, namedWindow 등 활용하여 간단한 출력화면 구성(first / helloworld.cpp, ch02 / windows.cpp & .. / movewindows.cpp)
+  - Point, Size, Rect 키워드 활용 및 멤버 자료 활용하여 출력 예제 화면 크기 등 변경 실행
 ---
 ## 2024-07-24
 ---
