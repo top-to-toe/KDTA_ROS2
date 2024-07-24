@@ -26,6 +26,7 @@ int main() {
         cap >> frame;
         resize(frame, doubleFrame, sz1 * 2);
         reshapeFrame = frame.reshape(3, shape);        // reshape
+        
         imshow("frame", frame);
         imshow("doubleframe", doubleFrame);
         imshow("reshape", reshapeFrame);
