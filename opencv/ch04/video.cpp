@@ -38,7 +38,7 @@ int main() {
 
         outputVideo << frame;
 
-        if(waitKey(delay) == 27)                    // 27 --> ESC key
+        if(waitKey(delay) == 27)                       // 27 --> ESC key
             break;
     }
     cap.release();
