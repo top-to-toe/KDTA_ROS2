@@ -17,3 +17,4 @@
   - opencv 환경 설정 (sudo apt install libopencv-dev python3-opencv, sudo apt update, sudo apt upgrade)
 
 - 3차시
+  - cmake, make 설치 및 사용 (sudo apt cmake, sudo apt make)
