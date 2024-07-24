@@ -24,9 +24,11 @@ int main() {
     // frame image show
     while(true) {
         cap >> frame;
+        if(frame.empty())               // 빈 프레임이 있는 경우 break.
+            break;
         resize(frame, doubleFrame, sz1 * 2);
         reshapeFrame = frame.reshape(3, shape);        // reshape
-        
+
         imshow("frame", frame);
         imshow("doubleframe", doubleFrame);
         imshow("reshape", reshapeFrame);
