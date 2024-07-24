@@ -43,6 +43,7 @@
   - 외부 저장 공간에 데이터 저장 및 출력 [[matOp5.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/matOp5.cpp)]
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]  
 
+
 - VideoCapture / VideoWriter 클래스 (ch04)
   - 디바이스의 카메라를 통한 비디오 영상 출력 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
