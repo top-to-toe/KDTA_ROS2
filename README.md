@@ -18,3 +18,6 @@
 
 - 3차시
   - cmake, make 설치 및 사용 (sudo apt cmake, sudo apt make)
+---
+## 2024-07-24
+---
