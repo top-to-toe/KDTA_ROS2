@@ -44,7 +44,9 @@
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 ---
 2. VideoCapture / VideoWriter 클래스 (ch04)
-  * 디바이스의 카메라를 통한 비디오 영상 출력 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
+  * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
-  * videoWriter 클래스 객체를 활용하여 동영상 파일 생성
-  * line 그리기
+  * line 그리기[[line.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/line.cpp)]
+  * keyboard 조작
+    [[keyboard.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/keyboard.cpp)]
+    [[keyboard2.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/keyboard2.cpp)]
