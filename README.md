@@ -45,6 +45,8 @@
 
 
 
+
+
 2. VideoCapture / VideoWriter 클래스 (ch04)
   * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
