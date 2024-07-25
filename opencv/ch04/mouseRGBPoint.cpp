@@ -26,23 +26,23 @@ int rect_y = 100;
 int rect_width = 50;
 int rect_height = 50;
 
+// 마우스 이벤트 핸들러 함수 정의
+void onMouse(int event, int x, int y, int flags, void *data);
+
 // 사용할 데이터 구조체 정의
 struct Mydata {
-    Point ptOld;  // 이전 마우스 위치
-    Point ptNew;  // 현재 마우스 위치
-    Mat img;      // 이미지 데이터
-    Scalar black = Scalar(0, 0, 0);    // 색상 정의
+    Point ptOld;                            // 이전 마우스 위치
+    Point ptNew;                            // 현재 마우스 위치
+    Mat img;                                // 이미지 데이터
+    Scalar black = Scalar(0, 0, 0);         // 색상 정의
     Scalar white = Scalar(255, 255, 255);
     Scalar yellow = Scalar(0, 255, 255);
     Scalar blue = Scalar(255, 0, 0);
     Scalar green = Scalar(0, 255, 0);
     Scalar red = Scalar(0, 0, 255);
-    bool flag = false;  // 마우스 버튼 눌림 상태
-    vector<Vec3b> rgbValues;  // 클릭한 픽셀의 RGB 값 저장
+    vector<Vec3b> rgbValues;                // 클릭한 픽셀의 RGB 값 저장
+    bool flag = false;                      // 마우스 버튼 눌림 상태
 };
-
-// 마우스 이벤트 핸들러 함수 정의
-void onMouse(int event, int x, int y, int flags, void *data);
 
 int main() {
     // 데이터 구조체 인스턴스 생성
