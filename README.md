@@ -50,13 +50,6 @@
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 
 
-
-
-
-
-
-
-
 - VideoCapture / VideoWriter 클래스 (ch04)
   * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
@@ -76,6 +69,9 @@
 - 이미지 합성 [[maskSetTo.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/maskSetTo.cpp)]
   - setTo함수로 합성될 이미지에 대해 색상 변경
   - copyTo함수로 합성
+  - Masking 되어있는 이미지에 대해 읽어올때(imread()) 속성값으로 인자에 IMREAD_GRAYSCALE를 기재
 - file 저장 [[filestorageTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/filestorageTest.cpp)]
+  - FileStorage 클래스 객체의 open함수로 저장될 위치 및 FileStorage::WRITE 속성을 통해 저장에 대해 명시
 - 저장된 파일 내용 불러오기 [[fileStorageReadTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/fileStorageReadTest.cpp)]
+  - FileStorage::READ로 저장된 파일을 불러옴에 대해 명시
 - chapter 마무리 과제 진행[[chTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/chTest.cpp)]
