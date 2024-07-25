@@ -82,5 +82,5 @@
   3. FPS 관리 및 대기 시간 계산: tm1.getFPS()를 이용하여 현재 FPS를 계산하고, 목표 FPS보다 높으면 추가적인 슬립을 통해 CPU 소비를 조정합니다.
   4. 마우스 이벤트 처리: onMouse() 함수를 이용하여 마우스 이벤트를 처리하고, 왼쪽 마우스 클릭 시 클릭한 픽셀의 RGB 값을 출력하고 rgbValues 벡터에 저장합니다.
   5. 파일 저장: 마지막으로, ESC 키 입력 시 rgbValues에 저장된 RGB 값을 JSON 파일로 저장합니다.
-
+  
   - 강사님 구현 코드[[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
