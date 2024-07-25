@@ -94,4 +94,4 @@
     히스토그램은 영상 내 각 픽셀 값의 빈도를 나타내는 그래프이며, 픽셀 값의 범위를 구간으로 나누어 각 구간에 속하는 픽셀의 수를 히스토그램의 세로축 값으로 표시함.
   - calcHist() 함수를 사용하여 영상의 히스토그램을 계산.
 - 히스토그램 평활화(histogram equalization) [[histogramEqualization.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/histogramEqualization.cpp)]
-  영상의 대비를 개선하기 위해 사용, 영상의 히스토그램을 조정하여 전체적인 밝기 분포를 균일하게 함.
+  - 영상의 대비를 개선하기 위해 사용, 영상의 히스토그램을 조정하여 전체적인 밝기 분포를 균일하게 함.
