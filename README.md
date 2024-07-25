@@ -83,4 +83,4 @@
   4. 마우스 이벤트 처리: onMouse() 함수를 이용하여 마우스 이벤트를 처리하고, 왼쪽 마우스 클릭 시 클릭한 픽셀의 RGB 값을 출력하고 rgbValues 벡터에 저장합니다.
   5. 파일 저장: 마지막으로, ESC 키 입력 시 rgbValues에 저장된 RGB 값을 JSON 파일로 저장합니다.
 
-  - 강사님 구현 코드[[]()]
+  - 강사님 구현 코드[[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
