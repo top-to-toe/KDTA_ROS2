@@ -89,3 +89,10 @@ void onMouse(int event, int x, int y, int flags, void *data) {
             break;
     }
 }
+
+/* 과제 내용 */
+// 1. lenna 이미지 window 출력
+// 2. 마우스 따라다니는 사각형(size: [50, 50])
+// 3. 마우스 클릭시 마우스 위치의 RGB 값을 cout -> 터미널 화면에 출력
+// 4. RGB vector에 넣고 FileStorage 저장 "mouseRGBvector.json"
+// *5. 최적화 tickmeter(미구현)
