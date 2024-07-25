@@ -67,3 +67,5 @@
 - mouse 기능 동작에 따른 관련 이벤트 표현 [[mouseTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseTest.cpp)]
 - trackBar 조작 기능 구현 [[trackBarTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/trackBarTest.cpp)] / [[trackBarTest2.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/trackBarTest2.cpp)]
 - file 저장 [[filestorageTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/filestorageTest.cpp)]
+- 저장된 파일 내용 불러오기 [[fileStorageReadTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/fileStorageReadTest.cpp)]
+- chapter 마무리 과제 진행[[chTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/chTest.cpp)]
