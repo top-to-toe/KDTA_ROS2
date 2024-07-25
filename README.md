@@ -22,11 +22,11 @@
   - imread 및 imshow, namedWindow 등 활용하여 간단한 출력화면 구성(first / helloworld.cpp, ch02 / windows.cpp & .. / movewindows.cpp)
   - Point, Size, Rect 키워드 활용 및 멤버 자료 활용하여 출력 예제 화면 크기 등 변경 실행
 
-  
+
 ---
 ## 2024-07-24
 ---
-1. matrix 연산자 사용 예시 구현
+- matrix 연산자 사용 예시 구현
   - Fixed Pixel Type: matrix 클래스의 element가 어떤 타입의 데이터인지 지정.
     + CV_8UC1 : 8 - bit unsigned integer : uchar(0..255)
       * 8 : bit 단위로서 8bit를 의미
@@ -46,7 +46,7 @@
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 
 
-2. VideoCapture / VideoWriter 클래스 (ch04)
+- VideoCapture / VideoWriter 클래스 (ch04)
   * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
   * line 그리기[[line.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/line.cpp)]
