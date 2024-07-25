@@ -75,3 +75,44 @@
 - 저장된 파일 내용 불러오기 [[fileStorageReadTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/fileStorageReadTest.cpp)]
   - FileStorage::READ로 저장된 파일을 불러옴에 대해 명시
 - chapter 마무리 과제 진행[[chTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/chTest.cpp)]
+- 과제 내용 중 코드 부가 설명
+  // 마우스 이벤트 핸들러 함수 구현
+void onMouse(int event, int x, int y, int flags, void *data) {
+    // 전달된 데이터를 Mydata 구조체 포인터로 변환
+    Mydata *ptr = (Mydata *)data;
+
+    // 발생한 마우스 이벤트에 따른 처리
+    switch (event) {
+        case EVENT_MOUSEMOVE:
+            // 마우스가 움직일 때 사각형 위치를 업데이트
+            rect_x = x;  // 마우스 x 좌표
+            rect_y = y;  // 마우스 y 좌표
+            break;
+        case EVENT_LBUTTONDOWN:
+            // 왼쪽 마우스 버튼이 눌렸을 때 처리
+            cout << "Mouse left button down" << endl;
+
+            // 클릭한 좌표가 이미지 범위 내에 있는지 확인
+            if (x >= 0 && x < ptr->img.cols && y >= 0 && y < ptr->img.rows) {
+                // 해당 좌표의 RGB 값 추출
+                Vec3b intensity = ptr->img.at<Vec3b>(y, x);
+                cout << "RGB values at (x=" << x << ", y=" << y << "): "
+                     << "R=" << (int)intensity[2] << ", "  // R 값
+                     << "G=" << (int)intensity[1] << ", "  // G 값
+                     << "B=" << (int)intensity[0] << endl; // B 값
+
+                // 추출한 RGB 값을 벡터에 저장
+                ptr->rgbValues.push_back(intensity);
+            }
+
+            // 마우스 버튼 눌림 상태를 true로 설정
+            ptr->flag = true;
+            break;
+        case EVENT_LBUTTONUP:
+            // 왼쪽 마우스 버튼을 뗐을 때 처리
+            cout << "Mouse left button up" << endl;
+            // 마우스 버튼 눌림 상태를 false로 설정
+            ptr->flag = false;
+            break;
+    }
+}
