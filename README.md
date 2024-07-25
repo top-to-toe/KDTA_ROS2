@@ -87,4 +87,4 @@
   - 강사님 구현 코드 [[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
 
 ### chapter 05
-- 명암비 조절[[brightness.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/brightness.cpp)]
+- 명암비 조절 [[brightness.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/brightness.cpp)]
