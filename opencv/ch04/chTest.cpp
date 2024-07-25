@@ -43,7 +43,7 @@ int main() {
         return -1;
     }
 
-    // 윈도우 생성 및 마우스 콜백 함수 설정
+    // 윈도우 생성 및 마우스 이벤트 콜백 함수 설정
     namedWindow("img");
     setMouseCallback("img", onMouse, (void *)&mydata);
 
@@ -109,6 +109,24 @@ void onMouse(int event, int x, int y, int flags, void *data) {
             break;
     }
 }
+
+/*
+    1. 마우스 이벤트 핸들러 함수 (onMouse):
+        onMouse 함수는 마우스 동작을 감지하고 처리하는 역할을 합니다.
+        event: 발생한 마우스 이벤트를 나타내는 변수입니다.
+        x, y: 마우스 클릭 또는 이동 시의 좌표입니다.
+        flags: 마우스 이벤트에 대한 추가 정보입니다.
+        data: 사용자 데이터(여기서는 Mydata 구조체)에 대한 포인터입니다.
+
+    2.마우스 이벤트 처리:
+        EVENT_MOUSEMOVE: 마우스가 움직일 때 사각형의 위치를 마우스 위치로 업데이트합니다.
+        EVENT_LBUTTONDOWN: 왼쪽 마우스 버튼을 클릭했을 때 처리합니다.
+            픽셀 좌표가 유효한 범위 내에 있으면 해당 좌표의 RGB 값을 추출하여 출력합니다.
+            추출한 RGB 값을 rgbValues 벡터에 저장합니다.
+            flag를 true로 설정하여 마우스 버튼이 눌린 상태임을 나타냅니다.
+        EVENT_LBUTTONUP: 왼쪽 마우스 버튼을 뗐을 때 처리합니다.
+            flag를 false로 설정하여 마우스 버튼이 눌리지 않은 상태임을 나타냅니다.
+*/
 
 /* 과제 내용 */
 // 1. lenna 이미지 window 출력
