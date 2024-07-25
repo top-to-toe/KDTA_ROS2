@@ -3,7 +3,9 @@
 - 공유 슬라이드 [[링크](https://docs.google.com/presentation/d/1453nx14DVMk0nBLW7jpt0g6x7a7z2wuNaJKmcVQi4rw/edit?usp=sharing)]
 
 ---
+
 ## 2024-07-23
+
 ---
 - 1차시
   - VMware 설치
@@ -20,11 +22,13 @@
   - cmake, make 설치 및 컴파일 용도 사용 (sudo apt cmake, sudo apt make)
   - CMakeLists.txt 및 c_cpp_properties.json 작성 (환경설정 관련)
   - imread 및 imshow, namedWindow 등 활용하여 간단한 출력화면 구성(first / helloworld.cpp, ch02 / windows.cpp & .. / movewindows.cpp)
-  - Point, Size, Rect 키워드 활용 및 멤버 자료 활용하여 출력 예제 화면 크기 등 변경 실행
+  - Point, Size, Rect 클래스 멤버 자료 활용하여 출력 예제 화면 크기 등 변경 실행
 
 
 ---
+
 ## 2024-07-24
+
 ---
 - matrix 연산자 사용 예시 구현
   - Fixed Pixel Type: matrix 클래스의 element가 어떤 타입의 데이터인지 지정.
@@ -56,7 +60,9 @@
 
 
 ---
+
 ## 2024-07-25
+
 ---
 - mouse 기능 동작에 따른 관련 이벤트 표현 [[mouseTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseTest.cpp)]
 - trackBar 조작 기능 구현 [[trackBarTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/trackBarTest.cpp)] / [[trackBarTest2.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/trackBarTest2.cpp)]
