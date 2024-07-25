@@ -24,12 +24,12 @@
 ---
 ## 2024-07-24
 ---
-- matrix 연산자 사용 예시 구현
+1. matrix 연산자 사용 예시 구현
   - Fixed Pixel Type: matrix 클래스의 element가 어떤 타입의 데이터인지 지정.
     + CV_8UC1 : 8 - bit unsigned integer : uchar(0..255)
-      - 8 : bit 단위로서 8bit를 의미
-      - U : unsigend의 약자, ( U : Unsinged, S : Signed, F : Floating )
-      - C1 : Channel의 약자이며 1채널을 의미한다. ( 1채널의 경우 C1 을 생략 가능하여 CV_8UC1 = CV_8U 와 같은 값을 지니게 된다. )
+      * 8 : bit 단위로서 8bit를 의미
+      * U : unsigend의 약자, ( U : Unsinged, S : Signed, F : Floating )
+      * C1 : Channel의 약자이며 1채널을 의미한다. ( 1채널의 경우 C1 을 생략 가능하여 CV_8UC1 = CV_8U 와 같은 값을 지니게 된다. )
     + CV_8SC1 : 8 - bit signed integer : schar(-128..127)
     + CV_16UC1 : 16 - bit unsigned integer : ushort(0..65535)
     + CV_16SC1 : 16 - bit signed integer : short(-32768..32767)
@@ -43,7 +43,7 @@
   - 외부 저장 공간에 데이터 저장 및 출력 [[matOp5.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/matOp5.cpp)]
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 
-- VideoCapture / VideoWriter 클래스 (ch04)
+2. VideoCapture / VideoWriter 클래스 (ch04)
   * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
   * line 그리기[[line.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/line.cpp)]
