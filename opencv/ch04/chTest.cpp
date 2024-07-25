@@ -126,6 +126,8 @@ void onMouse(int event, int x, int y, int flags, void *data) {
             flag를 true로 설정하여 마우스 버튼이 눌린 상태임을 나타냅니다.
         EVENT_LBUTTONUP: 왼쪽 마우스 버튼을 뗐을 때 처리합니다.
             flag를 false로 설정하여 마우스 버튼이 눌리지 않은 상태임을 나타냅니다.
+
+  
 */
 
 /* 과제 내용 */
