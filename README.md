@@ -52,8 +52,8 @@
   - 외부 저장 공간에 데이터 저장 및 출력 [[matOp5.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/matOp5.cpp)]
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 
-
-- VideoCapture / VideoWriter 클래스 (ch04)
+### chapter 04
+- VideoCapture / VideoWriter 클래스
   * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
   * line 그리기 [[line.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/line.cpp)]
@@ -86,6 +86,7 @@
   
   - 강사님 구현 코드 [[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
 
+
 ### chapter 05
 - 명암비 조절 [[brightness.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/brightness.cpp)]
   - cvtColor 함수를 사용하여 변환.
@@ -95,3 +96,12 @@
   - calcHist() 함수를 사용하여 영상의 히스토그램을 계산.
 - 히스토그램 평활화(histogram equalization) [[histogramEqualization.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/histogramEqualization.cpp)]
   - 영상의 대비를 개선하기 위해 사용, 영상의 히스토그램을 조정하여 전체적인 밝기 분포를 균일하게 함.
+
+
+### chapter 06
+- 이미지 / 영상 논리 연산 [[logical.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch06/logical.cpp)]
+  - bitwise 논리식 함수를 활용하여 연산 결과물 출력
+
+
+### chapter 07
+- 필터링
