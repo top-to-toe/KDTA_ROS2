@@ -76,9 +76,11 @@
   - FileStorage 클래스 객체의 open함수로 저장될 위치 및 FileStorage::WRITE 속성을 통해 저장에 대해 명시
 - 저장된 파일 내용 불러오기 [[fileStorageReadTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/fileStorageReadTest.cpp)]
   - FileStorage::READ로 저장된 파일을 불러옴에 대해 명시
-- chapter 마무리 과제 진행[[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
+- chapter 마무리 과제 진행[[mouseRGBPoint_myself.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint_myself.cpp)]
   1. TickMeter 객체 사용: TickMeter를 이용하여 tm1과 tm2를 선언하고 시작(tm1.start(), tm2.start()) 및 종료(tm1.stop(), tm2.stop()) 시간을 측정합니다. 이는 FPS 측정과 최적화를 위한 핵심 요소입니다.
   2. 이미지 처리 및 출력: imshow() 함수를 이용하여 img_display 이미지를 출력하고, ESC 키 입력 시 프로그램을 종료합니다. 또한, 현재 마우스 위치에 따라 사각형을 그립니다.
   3. FPS 관리 및 대기 시간 계산: tm1.getFPS()를 이용하여 현재 FPS를 계산하고, 목표 FPS보다 높으면 추가적인 슬립을 통해 CPU 소비를 조정합니다.
   4. 마우스 이벤트 처리: onMouse() 함수를 이용하여 마우스 이벤트를 처리하고, 왼쪽 마우스 클릭 시 클릭한 픽셀의 RGB 값을 출력하고 rgbValues 벡터에 저장합니다.
   5. 파일 저장: 마지막으로, ESC 키 입력 시 rgbValues에 저장된 RGB 값을 JSON 파일로 저장합니다.
+
+  - 강사님 구현 코드[[]()]
