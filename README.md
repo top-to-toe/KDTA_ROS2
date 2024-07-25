@@ -2,6 +2,7 @@
 
 - 공유 슬라이드 [[링크](https://docs.google.com/presentation/d/1453nx14DVMk0nBLW7jpt0g6x7a7z2wuNaJKmcVQi4rw/edit?usp=sharing)]
 
+
 ---
 
 ## 2024-07-23
@@ -84,3 +85,6 @@
   5. 파일 저장: 마지막으로, ESC 키 입력 시 rgbValues에 저장된 RGB 값을 JSON 파일로 저장합니다.
   
   - 강사님 구현 코드 [[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
+
+### chapter 05
+- 명암비 조절[[]()]
