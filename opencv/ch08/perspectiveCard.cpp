@@ -8,11 +8,10 @@ void onMouse(int event, int x, int y, int flags, void *data);                   
 
 String folder = "/home/hansollee/Documents/KDTA_ROS2/opencv/data/";
 Mat src;
-bool flag = false;
 Point2f srcPts[4], dstPts[4];
 
 int main() {
-    Mat img = imread(folder + "card.bmp");
+    src = imread(folder + "card.bmp");
 
     namedWindow("src");
     setMouseCallback("src", onMouse);
@@ -29,20 +28,21 @@ void onMouse(int event, int x, int y, int flags, void *data) {
         case EVENT_LBUTTONDOWN:
             if(cnt < 4) {
                 srcPts[cnt++] = Point2f(x, y);
-            }
-            cout << "mouse left button down\n" << "x: " << x << ", y: " << y << endl;
-            ptr->ptOld = Point(x, y);
-            ptr->flag = true;
-            break;
-        case EVENT_LBUTTONUP:
-            cout << "mouse left button up\n" << "x: " << x << ", y: " << y << endl;
-            ptr->flag = false;
-            break;
-        case EVENT_MOUSEMOVE:
-            if(ptr->flag & EVENT_FLAG_LBUTTON) {
-                line(ptr->img, ptr->ptOld, Point(x, y), ptr->blue, 3);
-                imshow("img", ptr->img);
-                ptr->ptOld = Point(x, y);
+                circle(src, Point(x, y), 5, Scalar(0, 0, 255), -1);
+                imshow("src", src);
+                if(cnt == 4) {
+                    int w = 200, h = 300;
+                    dstPts[0] = Point2f(0, 0);
+                    dstPts[1] = Point2f(w - 1, 0);
+                    dstPts[2] = Point2f(w - 1, h - 1);
+                    dstPts[3] = Point2f(0, h - 1);
+
+                    Mat M = getPerspectiveTransform(srcPts, dstPts);
+                    Mat dst;
+                    warpPerspective(src, dst, M, Size(w, h));
+                    imshow("dst", dst);
+                    cnt = 0;
+                }
             }
     }
 }
