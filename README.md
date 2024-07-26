@@ -15,7 +15,7 @@
   - git 설치 (sudo apt install git)
 
 - 2차시
-  - vscode 설치 (sudo apt install .vs~)
+  - vscode 설치 (sudo apt install .code~)
   - github 연동 (git clone [github URL])
   - opencv 환경 설정 (sudo apt install libopencv-dev python3-opencv, sudo apt update, sudo apt upgrade)
 
