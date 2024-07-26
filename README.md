@@ -127,9 +127,9 @@
   - 색 공간 변환
 
 
-
 ### chapter 11
 
 
 ### chapter 13
 - cascade
+- HogDescriptor
