@@ -9,7 +9,7 @@
 
 ---
 - 1차시
-  - VMware 설치
+  - VMware worksation 17 설치
   - ubuntu 22.04 설치
   - terminator 설치 (sudo apt install terminator)
   - git 설치 (sudo apt install git)
@@ -105,3 +105,10 @@
 
 ### chapter 07
 - 필터링
+  - 커널(윈도우): Mat 사용. 작은 크기. 홀수만 사용.  
+    Convolution(회선)
+
+
+### chapter 08
+- 영상의 기하학적 변환
+  - 
