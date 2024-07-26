@@ -21,4 +21,4 @@ int main() {
     return 0;
 }
 
-// cascade의 성능이 굉장히 좋으나, 특정 xml 파일이 필요로 된다.
+// cascade의 성능이 굉장히 좋으나, 특정 xml 파일이 필요하다.
