@@ -7,7 +7,6 @@ String folder = "/home/hansollee/Documents/KDTA_ROS2/opencv/data/";
 
 int main() {
     Mat img = imread(folder + "building.jpg", IMREAD_GRAYSCALE);
-    // Mat dst1, dst2;
 
     Mat edge;
     Canny(img, edge, 50, 150);
