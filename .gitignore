@@ -1,5 +1,2 @@
 install/
 build/
-!*.c
-!*.cpp
-!*.h
