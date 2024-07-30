@@ -1,11 +1,12 @@
 # KDTA ROS2
+##[OPENCV]
 
 - 공유 슬라이드 [[링크](https://docs.google.com/presentation/d/1453nx14DVMk0nBLW7jpt0g6x7a7z2wuNaJKmcVQi4rw/edit?usp=sharing)]
 
 
 ---
 
-## 2024-07-23
+### 2024-07-23
 
 ---
 - 1차시
@@ -28,7 +29,7 @@
 
 ---
 
-## 2024-07-24
+### 2024-07-24
 
 ---
 - matrix 연산자 사용 예시 구현
@@ -52,7 +53,7 @@
   - 외부 저장 공간에 데이터 저장 및 출력 [[matOp5.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/matOp5.cpp)]
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 
-### chapter 04
+#### chapter 04
 - VideoCapture / VideoWriter 클래스
   * 디바이스의 카메라를 통한 비디오 영상 출력 / videoWriter 클래스 객체를 활용하여 동영상 파일 생성 [[video.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/video.cpp)]  
     (실습 노트북의 내장 카메라 접근 이슈로 인해 저장된 동영상을 출력)
@@ -64,7 +65,7 @@
 
 ---
 
-## 2024-07-25
+### 2024-07-25
 
 ---
 - mouse 기능 동작에 따른 관련 이벤트 표현 [[mouseTest.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseTest.cpp)]
@@ -87,7 +88,7 @@
   - 강사님 구현 코드 [[mouseRGBPoint.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch04/mouseRGBPoint.cpp)]
 
 
-### chapter 05
+#### chapter 05
 - 명암비 조절 [[brightness.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/brightness.cpp)]
   - cvtColor 함수를 사용하여 변환.
 - 히스토그램 분석 [[histogram.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch05/histogram.cpp)]
@@ -98,12 +99,12 @@
   - 영상의 대비를 개선하기 위해 사용, 영상의 히스토그램을 조정하여 전체적인 밝기 분포를 균일하게 함.
 
 
-### chapter 06
+#### chapter 06
 - 이미지 / 영상 논리 연산 [[logical.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch06/logical.cpp)]
   - bitwise 논리식 함수를 활용하여 연산 결과물 출력
 
 
-### chapter 07
+#### chapter 07
 - 필터링
   - 커널(윈도우): Mat 사용. 작은 크기. 홀수만 사용.  
     Convolution(회선)
@@ -111,25 +112,25 @@
 
 ---
 
-## 2024-07-26
+### 2024-07-26
 
 ---
-### chapter 08
+#### chapter 08
 - 영상의 기하학적 변환
 
 
-### chapter 09
+#### chapter 09
 - edge
 
 
-### chapter 10
+#### chapter 10
 - Color 영상 처리
   - 색 공간 변환
 
 
-### chapter 11
+#### chapter 11
 
 
-### chapter 13
+#### chapter 13
 - cascade
 - HogDescriptor
