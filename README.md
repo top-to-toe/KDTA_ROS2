@@ -272,10 +272,10 @@ pip3 install numpy
     - move_t_sim 패키지
       - 노드 추가
         - moveTurtleSim.cpp : 터틀심 이동 노드( turtle1, turtle2 동시 이동)
-- 최종 실습(Topic)
+- 최종 실습(Topic) [[ROS2/src/msg](https://github.com/top-to-toe/KDTA_ROS2/tree/main/ROS2/src/msg)] - 과제 구현 완료
   - 5개 노드 3개 Topic 사용
     - 노드 : mpub, msub, msub2, tpub, mtsub
     - Topic :
-      - /message1: String ( mpub -> msub, mtsub)
-      - /message2: String ( mpub -> msub2)
-      - /time: Header ( tpub -> mtsub)
+      - /message1: String ( mpub -> msub, mtsub )
+      - /message2: String ( mpub -> msub2 )
+      - /time: Header ( tpub -> mtsub )
