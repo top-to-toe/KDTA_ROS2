@@ -262,7 +262,7 @@ pip3 install numpy
 
 - 복습
 - 패키지 작성 (이어서)
-  - kdta_ws
+  - kdta_ROS2_workspace
     - simple_pkg_cpp 패키지
       - 노드 추가
         - hellow_publisher_class2 : 분할컴파일 (해더, 메인, CPP)
