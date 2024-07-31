@@ -10,7 +10,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install libopencv-dev python3-opencv
 sudo apt install build-essential cmake git pkg-config
-'''
+```
 
 - OpenCV 설치 후 추가 작업
   - 각 패키지에 대한 추가 설명
@@ -71,7 +71,7 @@ pip3 install numpy
   - Mat 클래스
 - matrix 연산자 사용 예시 구현
   - Fixed Pixel Type: matrix 클래스의 element가 어떤 타입의 데이터인지 지정.
-    - CV_8UC1 : 8 - bit unsigned integer : uchar(0..255)
+    - CV_8UC1 : 8 bit unsigned integer : uchar(0..255)
       - 8 : bit 단위로서 8bit를 의미
       - U : unsigend의 약자, ( U : Unsinged, S : Signed, F : Floating )
       - C1 : Channel의 약자이며 1채널을 의미한다. ( 1채널의 경우 C1 을 생략 가능하여 CV_8UC1 = CV_8U 와 같은 값을 지니게 된다. )
@@ -90,6 +90,8 @@ pip3 install numpy
   - 외부 저장 공간에 데이터 저장 및 출력 [[matOp5.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/matOp5.cpp)]
   - 벡터(Vec3b 사용) 및 스칼라(Scalar) 행렬 객체를 활용한 색상 출력 [[vecOp.cpp](https://github.com/top-to-toe/KDTA_ROS2/blob/main/opencv/ch03/vecOp.cpp)]
 
+
+---
 #### chapter 04
 
 - VideoCapture / VideoWriter 클래스
