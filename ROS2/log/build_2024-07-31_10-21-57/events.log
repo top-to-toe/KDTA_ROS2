@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.003007] (simple_pkg_cpp) JobQueued: {'identifier': 'simple_pkg_cpp', 'dependencies': OrderedDict()}
+[0.004719] (simple_pkg_cpp) JobStarted: {'identifier': 'simple_pkg_cpp'}
+[0.034488] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'cmake'}
+[0.037520] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'build'}
+[0.040055] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp', '--', '-j4', '-l4'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1583'), ('SYSTEMD_EXEC_PID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4084'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hansollee/kdta_ROS2_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:36743'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1703,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1703'), ('INVOCATION_ID', 'be7916439f004366adafdf793dec66ad'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.702UR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '33'), ('AMENT_PREFIX_PATH', '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9312fcb7-10e3-4b2d-a156-f44badfa0ed6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/opt/ros/humble')]), 'shell': False}
+[0.098613] (-) TimerEvent: {}
+[0.199432] (-) TimerEvent: {}
+[0.288376] (simple_pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target helloworld\x1b[0m\n'}
+[0.309780] (-) TimerEvent: {}
+[0.357120] (simple_pkg_cpp) StdoutLine: {'line': b'[ 16%] Built target helloworld\n'}
+[0.404488] (simple_pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_publisher2\x1b[0m\n'}
+[0.410508] (-) TimerEvent: {}
+[0.471526] (simple_pkg_cpp) StdoutLine: {'line': b'[ 33%] Built target hello_publisher2\n'}
+[0.510805] (-) TimerEvent: {}
+[0.520108] (simple_pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_publisher_class\x1b[0m\n'}
+[0.580189] (simple_pkg_cpp) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable hello_publisher_class\x1b[0m\n'}
+[0.611521] (-) TimerEvent: {}
+[0.713852] (-) TimerEvent: {}
+[0.815291] (-) TimerEvent: {}
+[0.916499] (-) TimerEvent: {}
+[1.017618] (-) TimerEvent: {}
+[1.118357] (-) TimerEvent: {}
+[1.219234] (-) TimerEvent: {}
+[1.320118] (-) TimerEvent: {}
+[1.420961] (-) TimerEvent: {}
+[1.522256] (-) TimerEvent: {}
+[1.623889] (-) TimerEvent: {}
+[1.641200] (simple_pkg_cpp) StdoutLine: {'line': b'[ 50%] Built target hello_publisher_class\n'}
+[1.724119] (-) TimerEvent: {}
+[1.781279] (simple_pkg_cpp) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o\x1b[0m\n'}
+[1.826735] (-) TimerEvent: {}
+[1.927351] (-) TimerEvent: {}
+[2.028976] (-) TimerEvent: {}
+[2.130137] (-) TimerEvent: {}
+[2.231191] (-) TimerEvent: {}
+[2.333180] (-) TimerEvent: {}
+[2.439662] (-) TimerEvent: {}
+[2.541008] (-) TimerEvent: {}
+[2.641986] (-) TimerEvent: {}
+[2.753121] (-) TimerEvent: {}
+[2.859238] (-) TimerEvent: {}
+[2.961011] (-) TimerEvent: {}
+[3.062253] (-) TimerEvent: {}
+[3.165947] (-) TimerEvent: {}
+[3.266835] (-) TimerEvent: {}
+[3.367520] (-) TimerEvent: {}
+[3.468639] (-) TimerEvent: {}
+[3.570969] (-) TimerEvent: {}
+[3.673200] (-) TimerEvent: {}
+[3.774056] (-) TimerEvent: {}
+[3.874732] (-) TimerEvent: {}
+[3.976742] (-) TimerEvent: {}
+[4.078999] (-) TimerEvent: {}
+[4.180196] (-) TimerEvent: {}
+[4.292016] (-) TimerEvent: {}
+[4.392876] (-) TimerEvent: {}
+[4.493688] (-) TimerEvent: {}
+[4.594342] (-) TimerEvent: {}
+[4.695021] (-) TimerEvent: {}
+[4.796364] (-) TimerEvent: {}
+[4.899885] (-) TimerEvent: {}
+[5.001341] (-) TimerEvent: {}
+[5.107127] (-) TimerEvent: {}
+[5.207851] (-) TimerEvent: {}
+[5.308646] (-) TimerEvent: {}
+[5.410214] (-) TimerEvent: {}
+[5.512079] (-) TimerEvent: {}
+[5.613666] (-) TimerEvent: {}
+[5.715381] (-) TimerEvent: {}
+[5.817295] (-) TimerEvent: {}
+[5.918320] (-) TimerEvent: {}
+[6.019606] (-) TimerEvent: {}
+[6.120767] (-) TimerEvent: {}
+[6.223985] (-) TimerEvent: {}
+[6.325822] (-) TimerEvent: {}
+[6.426942] (-) TimerEvent: {}
+[6.527715] (-) TimerEvent: {}
+[6.628626] (-) TimerEvent: {}
+[6.729562] (-) TimerEvent: {}
+[6.830210] (-) TimerEvent: {}
+[6.933430] (-) TimerEvent: {}
+[7.034101] (-) TimerEvent: {}
+[7.134879] (-) TimerEvent: {}
+[7.235563] (-) TimerEvent: {}
+[7.336404] (-) TimerEvent: {}
+[7.437721] (-) TimerEvent: {}
+[7.539318] (-) TimerEvent: {}
+[7.640008] (-) TimerEvent: {}
+[7.741108] (-) TimerEvent: {}
+[7.842534] (-) TimerEvent: {}
+[7.943907] (-) TimerEvent: {}
+[8.045532] (-) TimerEvent: {}
+[8.146952] (-) TimerEvent: {}
+[8.248214] (-) TimerEvent: {}
+[8.349177] (-) TimerEvent: {}
+[8.450669] (-) TimerEvent: {}
+[8.551842] (-) TimerEvent: {}
+[8.653597] (-) TimerEvent: {}
+[8.754715] (-) TimerEvent: {}
+[8.856367] (-) TimerEvent: {}
+[8.957125] (-) TimerEvent: {}
+[9.057843] (-) TimerEvent: {}
+[9.158986] (-) TimerEvent: {}
+[9.259853] (-) TimerEvent: {}
+[9.361812] (-) TimerEvent: {}
+[9.463183] (-) TimerEvent: {}
+[9.564026] (-) TimerEvent: {}
+[9.665613] (-) TimerEvent: {}
+[9.766521] (-) TimerEvent: {}
+[9.867456] (-) TimerEvent: {}
+[9.968334] (-) TimerEvent: {}
+[10.069548] (-) TimerEvent: {}
+[10.170252] (-) TimerEvent: {}
+[10.271752] (-) TimerEvent: {}
+[10.372422] (-) TimerEvent: {}
+[10.473081] (-) TimerEvent: {}
+[10.574944] (-) TimerEvent: {}
+[10.675791] (-) TimerEvent: {}
+[10.778053] (-) TimerEvent: {}
+[10.879042] (-) TimerEvent: {}
+[10.979987] (-) TimerEvent: {}
+[11.080821] (-) TimerEvent: {}
+[11.182489] (-) TimerEvent: {}
+[11.284066] (-) TimerEvent: {}
+[11.385537] (-) TimerEvent: {}
+[11.486675] (-) TimerEvent: {}
+[11.588230] (-) TimerEvent: {}
+[11.689000] (-) TimerEvent: {}
+[11.789774] (-) TimerEvent: {}
+[11.890598] (-) TimerEvent: {}
+[11.992205] (-) TimerEvent: {}
+[12.092884] (-) TimerEvent: {}
+[12.193934] (-) TimerEvent: {}
+[12.294961] (-) TimerEvent: {}
+[12.396151] (-) TimerEvent: {}
+[12.496862] (-) TimerEvent: {}
+[12.597859] (-) TimerEvent: {}
+[12.698600] (-) TimerEvent: {}
+[12.799301] (-) TimerEvent: {}
+[12.900335] (-) TimerEvent: {}
+[13.001938] (-) TimerEvent: {}
+[13.102558] (-) TimerEvent: {}
+[13.203099] (-) TimerEvent: {}
+[13.304433] (-) TimerEvent: {}
+[13.409541] (-) TimerEvent: {}
+[13.510945] (-) TimerEvent: {}
+[13.611981] (-) TimerEvent: {}
+[13.712706] (-) TimerEvent: {}
+[13.813952] (-) TimerEvent: {}
+[13.915115] (-) TimerEvent: {}
+[14.016288] (-) TimerEvent: {}
+[14.116958] (-) TimerEvent: {}
+[14.217672] (-) TimerEvent: {}
+[14.318878] (-) TimerEvent: {}
+[14.419512] (-) TimerEvent: {}
+[14.520313] (-) TimerEvent: {}
+[14.621147] (-) TimerEvent: {}
+[14.721910] (-) TimerEvent: {}
+[14.823261] (-) TimerEvent: {}
+[14.850067] (simple_pkg_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable hello_publisher_class2\x1b[0m\n'}
+[14.927162] (-) TimerEvent: {}
+[15.028056] (-) TimerEvent: {}
+[15.129621] (-) TimerEvent: {}
+[15.161850] (simple_pkg_cpp) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o: in function `void __gnu_cxx::new_allocator<HellowPublisher>::construct<HellowPublisher>(HellowPublisher*)':\n"}
+[15.162550] (simple_pkg_cpp) StderrLine: {'line': b"hello_publisher_class2.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15HellowPublisherE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15HellowPublisherE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `HellowPublisher::HellowPublisher()'\n"}
+[15.178563] (simple_pkg_cpp) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[15.183519] (simple_pkg_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:159: hello_publisher_class2] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[15.185203] (simple_pkg_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hello_publisher_class2.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[15.185977] (simple_pkg_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[15.192355] (simple_pkg_cpp) CommandEnded: {'returncode': 2}
+[15.231817] (-) TimerEvent: {}
+[15.334871] (-) TimerEvent: {}
+[15.431683] (simple_pkg_cpp) JobEnded: {'identifier': 'simple_pkg_cpp', 'rc': 2}
+[15.435997] (-) TimerEvent: {}
+[15.443570] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+gmake[2]: *** 'hello_publisher_class' 파일을 삭제합니다
+gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:76: CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hello_publisher_class2.dir/all] 인터럽트
+gmake[2]: *** [CMakeFiles/hello_publisher_class.dir/build.make:159: hello_publisher_class] 인터럽트
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/hello_publisher_class.dir/all] 인터럽트
+gmake: *** [Makefile:146: all] 인터럽트

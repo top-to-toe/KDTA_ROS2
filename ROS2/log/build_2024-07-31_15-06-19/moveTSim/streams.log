@@ -1,0 +1,3 @@
+[0.064s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/moveTSim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/moveTSim -- -j4 -l4
+[0.251s] [100%] Built target moveTurtleSim
+[0.292s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/moveTSim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/moveTSim -- -j4 -l4

@@ -1,0 +1,24 @@
+WARNING: Package name "moveTSim" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/moveTSim/src/moveTurtleSim.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/moveTSim/src/moveTurtleSim.cpp:5:34:[m[K [01;31m[Kerror: [m[K‘[01m[KHellowPublisher[m[K’ was not declared in this scope
+    5 |     auto node = std::make_shared<[01;31m[KHellowPublisher[m[K>();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/moveTSim/src/moveTurtleSim.cpp:5:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+    5 |     auto node = [01;31m[Kstd::make_shared<HellowPublisher>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/hansollee/kdta_ROS2_workspace/src/moveTSim/include/moveTSim/moveTurtle.hpp:4[m[K,
+                 from [01m[K/home/hansollee/kdta_ROS2_workspace/src/moveTSim/src/moveTurtleSim.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/moveTSim/src/moveTurtleSim.cpp:5:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    5 |     auto node = [01;31m[Kstd::make_shared<HellowPublisher>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/moveTurtleSim.dir/build.make:76: CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveTurtleSim.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

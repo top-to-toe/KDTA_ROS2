@@ -1,0 +1,34 @@
+[0.079s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j4 -l4
+[0.241s] [35m[1mConsolidate compiler generated dependencies of target message_time_subscriber_class[0m
+[0.324s] [ 20%] Built target message2_subscriber_class
+[0.334s] [ 40%] Built target message_publisher_class
+[0.374s] [ 46%] [32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/mtsub.cpp.o[0m
+[0.376s] [ 66%] Built target message_subscriber_class
+[0.530s] [ 86%] Built target time_publisher_class
+[33.978s] [ 93%] [32m[1mLinking CXX executable message_time_subscriber_class[0m
+[35.465s] [100%] Built target message_time_subscriber_class
+[35.512s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j4 -l4
+[35.689s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/msg
+[35.721s] -- Install configuration: ""
+[35.721s] -- Execute custom install script
+[35.723s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message_publisher_class
+[35.724s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message_subscriber_class
+[35.724s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message2_subscriber_class
+[35.725s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message_time_subscriber_class
+[35.725s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/time_publisher_class
+[35.726s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/ament_index/resource_index/package_run_dependencies/msg
+[35.726s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/ament_index/resource_index/parent_prefix_path/msg
+[35.726s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/ament_prefix_path.sh
+[35.726s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/ament_prefix_path.dsv
+[35.731s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/path.sh
+[35.733s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/path.dsv
+[35.733s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.bash
+[35.733s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.sh
+[35.737s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.zsh
+[35.737s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.dsv
+[35.737s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.dsv
+[35.766s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/ament_index/resource_index/packages/msg
+[35.766s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/cmake/msgConfig.cmake
+[35.766s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/cmake/msgConfig-version.cmake
+[35.766s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.xml
+[35.776s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/msg

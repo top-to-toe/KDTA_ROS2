@@ -1,0 +1,45 @@
+[0.092s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j4 -l4
+[0.242s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.941s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.031s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.205s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.213s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.236s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.601s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.618s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.018s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.562s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.797s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.798s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/msg/include
+[2.798s] -- Configured cppcheck exclude dirs and/or files: 
+[2.800s] -- Added test 'lint_cmake' to check CMake code style
+[2.804s] -- Added test 'uncrustify' to check C / C++ code style
+[2.805s] -- Configured uncrustify additional arguments: 
+[2.806s] -- Added test 'xmllint' to check XML markup files
+[2.811s] -- Configuring done
+[2.886s] -- Generating done
+[2.894s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/msg
+[2.984s] [35m[1mConsolidate compiler generated dependencies of target message_publisher_class[0m
+[3.013s] [35m[1mConsolidate compiler generated dependencies of target message_subscriber_class[0m
+[3.031s] [35m[1mConsolidate compiler generated dependencies of target message2_subscriber_class[0m
+[3.043s] [  6%] [32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/message_time_subscriber_class.cpp.o[0m
+[3.081s] [ 26%] Built target message_publisher_class
+[3.095s] [ 46%] Built target message_subscriber_class
+[3.124s] [ 66%] Built target message2_subscriber_class
+[3.147s] [ 73%] [32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/mtsub.cpp.o[0m
+[3.164s] [ 80%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o[0m
+[3.196s] [ 86%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/tpub.cpp.o[0m
+[3.277s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/msg/src/time_publisher_class.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksimple_pkg_cpp/time_pub.hpp: 그런 파일이나 디렉터리가 없습니다
+[3.278s]     1 | #include [01;31m[K"simple_pkg_cpp/time_pub.hpp"[m[K
+[3.278s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.278s] compilation terminated.
+[3.292s] gmake[2]: *** [CMakeFiles/time_publisher_class.dir/build.make:76: CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o] 오류 1
+[3.292s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[18.157s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/time_publisher_class.dir/all] 오류 2
+[18.157s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[35.960s] [ 93%] [32m[1mLinking CXX executable message_time_subscriber_class[0m
+[37.605s] [ 93%] Built target message_time_subscriber_class
+[37.618s] gmake: *** [Makefile:146: all] 오류 2
+[37.625s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j4 -l4

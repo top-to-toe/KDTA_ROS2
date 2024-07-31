@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/moveTSim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/moveTSim -- -j4 -l4
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleSim[0m
+[0.225s] [ 33%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o[0m
+[11.953s] [ 66%] [32m[1mLinking CXX executable moveTurtleSim[0m
+[12.437s] [100%] Built target moveTurtleSim
+[12.475s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/moveTSim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/moveTSim -- -j4 -l4
+[12.560s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/moveTSim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/moveTSim
+[12.575s] -- Install configuration: ""
+[12.577s] -- Execute custom install script
+[12.577s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/lib/moveTSim/moveTurtleSim
+[12.597s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/ament_index/resource_index/package_run_dependencies/moveTSim
+[12.619s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/ament_index/resource_index/parent_prefix_path/moveTSim
+[12.637s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/environment/ament_prefix_path.sh
+[12.657s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/environment/ament_prefix_path.dsv
+[12.681s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/environment/path.sh
+[12.702s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/environment/path.dsv
+[12.729s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/local_setup.bash
+[12.753s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/local_setup.sh
+[12.777s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/local_setup.zsh
+[12.806s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/local_setup.dsv
+[12.847s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/package.dsv
+[12.868s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/ament_index/resource_index/packages/moveTSim
+[12.912s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/cmake/moveTSimConfig.cmake
+[12.942s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/cmake/moveTSimConfig-version.cmake
+[12.976s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/moveTSim/share/moveTSim/package.xml
+[13.015s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/moveTSim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/moveTSim

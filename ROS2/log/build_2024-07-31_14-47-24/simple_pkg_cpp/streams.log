@@ -1,0 +1,9 @@
+[0.078s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[0.230s] [31mCMake Error at CMakeLists.txt:12:
+[0.230s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.231s] 
+[0.231s] [0m
+[0.232s] -- Configuring incomplete, errors occurred!
+[0.232s] See also "/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp/CMakeFiles/CMakeOutput.log".
+[0.242s] gmake: *** [Makefile:567: cmake_check_build_system] 오류 1
+[0.251s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4

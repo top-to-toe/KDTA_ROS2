@@ -1,0 +1,17 @@
+[0.041s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target helloOpenCV[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher[0m
+[0.244s] [ 16%] Built target helloworld
+[0.268s] [ 33%] Built target helloOpenCV
+[0.292s] [ 50%] Built target hello_publisher2
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class2[0m
+[0.330s] [ 66%] Built target hello_publisher
+[0.337s] [ 83%] Built target hello_publisher_class
+[0.382s] [ 91%] [32m[1mLinking CXX executable hello_publisher_class2[0m
+[0.711s] /usr/bin/ld: CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o: in function `void __gnu_cxx::new_allocator<HellowPublisher>::construct<HellowPublisher>(HellowPublisher*)':
+[0.711s] hello_publisher_class2.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15HellowPublisherE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15HellowPublisherE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `HellowPublisher::HellowPublisher()'
+[0.720s] collect2: error: ld returned 1 exit status
+[0.723s] gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:159: hello_publisher_class2] 오류 1
+[0.724s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hello_publisher_class2.dir/all] 오류 2
+[0.726s] gmake: *** [Makefile:146: all] 오류 2
+[0.732s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
