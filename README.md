@@ -279,3 +279,4 @@ pip3 install numpy
       - /message1: String ( mpub -> msub, mtsub )
       - /message2: String ( mpub -> msub2 )
       - /time: Header ( tpub -> mtsub )
+  - 강사님 구현코드 [[topic_final](https://github.com/freshmea/kdta_ROS2/tree/main/topic_final)]
