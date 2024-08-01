@@ -1,0 +1,36 @@
+[0.023s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
+[0.075s] [ 11%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o[0m
+[0.075s] [ 22%] [32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o[0m
+[4.469s] [ 33%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o[0m
+[4.514s] [ 44%] [32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.o[0m
+[8.622s] [ 55%] [32m[1mLinking CXX executable moveTurtleSim[0m
+[8.802s] [ 55%] Built target moveTurtleSim
+[8.827s] [ 66%] [32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBot.cpp.o[0m
+[11.558s] [ 77%] [32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBotcpp.cpp.o[0m
+[13.233s] [ 88%] [32m[1mLinking CXX executable moveTurtleSim2[0m
+[13.658s] [ 88%] Built target moveTurtleSim2
+[18.787s] [100%] [32m[1mLinking CXX executable moveTurtleBot[0m
+[19.101s] [100%] Built target moveTurtleBot
+[19.110s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
+[19.148s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/move_t_sim
+[19.150s] -- Install configuration: ""
+[19.151s] -- Execute custom install script
+[19.151s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleSim
+[19.164s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleSim2
+[19.171s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleBot
+[19.179s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/package_run_dependencies/move_t_sim
+[19.187s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/parent_prefix_path/move_t_sim
+[19.195s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.sh
+[19.202s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.dsv
+[19.211s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/path.sh
+[19.218s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/path.dsv
+[19.226s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.bash
+[19.232s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.sh
+[19.241s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.zsh
+[19.251s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.dsv
+[19.261s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.dsv
+[19.270s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/packages/move_t_sim
+[19.278s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig.cmake
+[19.286s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig-version.cmake
+[19.294s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.xml
+[19.306s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/move_t_sim

@@ -1,0 +1,25 @@
+[0.023s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
+[0.073s] [ 11%] [32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o[0m
+[0.075s] [ 22%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o[0m
+[0.091s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/moveTurtleSim2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KmoveTSim/moveTurtle2.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.091s]     1 | #include [01;31m[K"moveTSim/moveTurtle2.hpp"[m[K
+[0.091s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.091s] compilation terminated.
+[0.094s] gmake[2]: *** [CMakeFiles/moveTurtleSim2.dir/build.make:76: CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o] 오류 1
+[0.094s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/moveTurtleSim2.dir/all] 오류 2
+[0.097s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.110s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/moveTurtleSim.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KmoveTSim/moveTurtle.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.110s]     1 | #include [01;31m[K"moveTSim/moveTurtle.hpp"[m[K
+[0.110s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.110s] compilation terminated.
+[0.110s] gmake[2]: *** [CMakeFiles/moveTurtleSim.dir/build.make:76: CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o] 오류 1
+[0.110s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.113s] [ 33%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o[0m
+[0.122s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/moveTurtle.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KmoveTSim/moveTurtle.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.122s]     1 | #include [01;31m[K"moveTSim/moveTurtle.hpp"[m[K
+[0.122s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.122s] compilation terminated.
+[0.123s] gmake[2]: *** [CMakeFiles/moveTurtleSim.dir/build.make:90: CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o] 오류 1
+[0.125s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/moveTurtleSim.dir/all] 오류 2
+[0.125s] gmake: *** [Makefile:146: all] 오류 2
+[0.130s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
