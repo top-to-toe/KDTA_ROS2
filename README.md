@@ -240,7 +240,7 @@ pip3 install numpy
   - 환경 설정 파일
     - .bashrc
       - source /opt/ros/humble/setup.bash
-      - source ~/xxx_ws/install/local_setup.bash
+      - source ~/xxx_Workspace/install/local_setup.bash
       - 여러가지 alias 설정
       - export ROS_DOMAIN_ID 설정
 - 패키지 작성
