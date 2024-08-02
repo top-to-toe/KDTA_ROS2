@@ -244,7 +244,7 @@ pip3 install numpy
       - 여러가지 alias 설정
       - export ROS_DOMAIN_ID 설정
 - 패키지 작성
-  - kdta_ws
+  - kdta_ROS2_workspace
     - simple_pkg_cpp
       - xml 수정
       - CMakeLists.txt 수정
@@ -317,7 +317,7 @@ pip3 install numpy
   - gazebo 설치
     - `sudo apt install ros-humble-gazebo-*`
   - turtlebot3 simulation 설치(깃 클론)
-    - `cd ~/kdta_ws/src`
+    - `cd ~/kdta_ROS2_workspace/src`
     - `git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
     - `cd ~/turtlebot3_ws && colcon build --symlink-install`
   - turtlebot3 simulation 실행
