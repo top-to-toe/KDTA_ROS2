@@ -316,7 +316,7 @@ pip3 install numpy
 - gazebo
   - gazebo 설치
     - `sudo apt install ros-humble-gazebo-*`
-  - turtlebot3 simulation 설치(깃 클론)
+  - turtlebot3 simulation 설치(git clone)
     - `cd ~/kdta_ROS2_workspace/src`
     - `git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
     - `cd ~/turtlebot3_ws && colcon build --symlink-install`
