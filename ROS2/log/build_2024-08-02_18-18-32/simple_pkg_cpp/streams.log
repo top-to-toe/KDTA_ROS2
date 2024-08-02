@@ -1,0 +1,82 @@
+[0.008s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp
+[0.017s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.109s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.133s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.135s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.195s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.418s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.521s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.571s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/include
+[0.571s] -- Configured cppcheck exclude dirs and/or files: 
+[0.573s] -- Added test 'lint_cmake' to check CMake code style
+[0.576s] -- Added test 'uncrustify' to check C / C++ code style
+[0.576s] -- Configured uncrustify additional arguments: 
+[0.577s] -- Added test 'xmllint' to check XML markup files
+[0.577s] -- Configuring done
+[0.605s] -- Generating done
+[0.608s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[0.615s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp
+[0.616s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j2 -l2
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target helloOpenCV[0m
+[0.656s] [ 10%] Built target helloworld
+[0.656s] [ 14%] Built target helloOpenCV
+[0.663s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher2[0m
+[0.664s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher[0m
+[0.676s] [ 21%] Built target hello_publisher2
+[0.676s] [ 28%] Built target hello_publisher
+[0.683s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class[0m
+[0.684s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class2[0m
+[0.695s] [ 35%] Built target hello_publisher_class
+[0.697s] [ 46%] Built target hello_publisher_class2
+[0.702s] [35m[1mConsolidate compiler generated dependencies of target hello_subscriber_class[0m
+[0.705s] [35m[1mConsolidate compiler generated dependencies of target time_publisher_class[0m
+[0.714s] [ 57%] Built target hello_subscriber_class
+[0.718s] [ 67%] Built target time_publisher_class
+[0.722s] [35m[1mConsolidate compiler generated dependencies of target time_subscriber_class[0m
+[0.727s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.736s] [ 78%] Built target time_subscriber_class
+[0.740s] [ 85%] Built target simple_service_server
+[0.745s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[0.750s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client2[0m
+[0.758s] [ 92%] Built target simple_service_client
+[0.762s] [100%] Built target simple_service_client2
+[0.770s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j2 -l2
+[0.822s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[0.829s] -- Install configuration: ""
+[0.829s] -- Execute custom install script
+[0.830s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloworld
+[0.830s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloOpenCV
+[0.830s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher
+[0.830s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher2
+[0.831s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class
+[0.831s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class2
+[0.831s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_subscriber_class
+[0.831s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_publisher_class
+[0.832s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_subscriber_class
+[0.832s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/simple_service_server
+[0.832s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/simple_service_client
+[0.832s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/simple_service_client2
+[0.832s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+[0.833s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+[0.833s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+[0.833s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+[0.833s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+[0.833s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+[0.834s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+[0.834s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+[0.834s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+[0.834s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+[0.834s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+[0.841s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+[0.841s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+[0.842s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+[0.842s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml
+[0.844s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
