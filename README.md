@@ -290,7 +290,7 @@ pip3 install numpy
 - 복습
 - 터틀봇3 네트워크 설정
   - 공유기 설치
-    - ssid: turtlebot3
+    - ssid: turtle
     - password: turtlebot3
   - 가상환경 bridge 설정
     - 네트워크 브릿지 클리 후 네트워크 카드 하나만 사용
