@@ -1,6 +1,0 @@
-[0.013s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j2 -l2
-[0.069s] [ 20%] Built target message_publisher_class
-[0.073s] [ 40%] Built target message_subscriber_class
-[0.091s] [ 60%] Built target message2_subscriber_class
-[0.095s] [ 80%] Built target message_time_subscriber_class
-[0.113s] [100%] Built target time_publisher_class

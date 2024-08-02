@@ -72,6 +72,10 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "any": "cpp",
+        "coroutine": "cpp",
+        "regex": "cpp",
+        "source_location": "cpp"
     }
 }

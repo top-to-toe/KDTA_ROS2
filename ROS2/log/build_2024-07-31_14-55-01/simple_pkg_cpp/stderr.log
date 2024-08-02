@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:12:
-  Parse error.  Expected a command name, got right paren with text ")".
-
-[0m
-gmake: *** [Makefile:567: cmake_check_build_system] 오류 1

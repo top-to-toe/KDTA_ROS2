@@ -1,9 +1,0 @@
-[01m[K/home/hansollee/kdta_ROS2_workspace/src/msg/src/time_publisher_class.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksimple_pkg_cpp/time_pub.hpp: 그런 파일이나 디렉터리가 없습니다
-    1 | #include [01;31m[K"simple_pkg_cpp/time_pub.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/time_publisher_class.dir/build.make:76: CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o] 오류 1
-gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
-gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/time_publisher_class.dir/all] 오류 2
-gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
-gmake: *** [Makefile:146: all] 오류 2

@@ -1,8 +1,0 @@
-[01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/hello_publisher.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
-[01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/hello_publisher.cpp:13:46:[m[K [01;31m[Kerror: [m[K‘[01m[KprintHello[m[K’ was not declared in this scope; did you mean ‘[01m[KpirntHello[m[K’?
-   13 |     auto timer = node->create_wall_timer(1s, [01;31m[KprintHello[m[K);
-      |                                              [01;31m[K^~~~~~~~~~[m[K
-      |                                              [32m[KpirntHello[m[K
-gmake[2]: *** [CMakeFiles/hello_publisher.dir/build.make:76: CMakeFiles/hello_publisher.dir/src/hello_publisher.cpp.o] 오류 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/hello_publisher.dir/all] 오류 2
-gmake: *** [Makefile:146: all] 오류 2
