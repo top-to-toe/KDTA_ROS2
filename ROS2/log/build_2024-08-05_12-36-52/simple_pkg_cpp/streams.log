@@ -1,0 +1,276 @@
+[0.100s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[0.285s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.439s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.690s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.700s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.758s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.374s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.396s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.901s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.833s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.491s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.649s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.984s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.989s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/include
+[4.989s] -- Configured cppcheck exclude dirs and/or files: 
+[4.992s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.997s] -- Added test 'lint_cmake' to check CMake code style
+[5.002s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.021s] -- Added test 'uncrustify' to check C / C++ code style
+[5.022s] -- Configured uncrustify additional arguments: 
+[5.025s] -- Added test 'xmllint' to check XML markup files
+[5.032s] -- Configuring done
+[5.318s] -- Generating done
+[5.330s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[5.400s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[5.408s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher[0m
+[5.424s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher2[0m
+[5.444s] [35m[1mConsolidate compiler generated dependencies of target helloOpenCV[0m
+[5.477s] [  6%] Built target helloworld
+[5.479s] [ 12%] Built target hello_publisher2
+[5.493s] [ 18%] Built target helloOpenCV
+[5.494s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class[0m
+[5.524s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class2[0m
+[5.525s] [ 25%] Built target hello_publisher
+[5.526s] [35m[1mConsolidate compiler generated dependencies of target hello_subscriber_class[0m
+[5.577s] [ 31%] Built target hello_publisher_class
+[5.644s] [35m[1mConsolidate compiler generated dependencies of target time_subscriber_class[0m
+[5.662s] [35m[1mConsolidate compiler generated dependencies of target time_publisher_class[0m
+[5.674s] [ 40%] Built target hello_subscriber_class
+[5.704s] [ 50%] Built target hello_publisher_class2
+[5.735s] [ 59%] Built target time_subscriber_class
+[5.750s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[5.821s] [ 68%] Built target time_publisher_class
+[5.821s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client2[0m
+[5.852s] [ 75%] Built target simple_service_server
+[5.860s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[5.875s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[5.940s] [ 81%] Built target simple_action_server
+[5.949s] [ 87%] Built target simple_service_client2
+[5.964s] [ 93%] Built target simple_service_client
+[5.997s] [ 96%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[16.001s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:46:56:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kusing GoalHandleFibonacci = class rclcpp_action::ServerGoalHandle<example_interfaces::action::Fibonacci>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<example_interfaces::action::Fibonacci>[m[K’} does not name a type
+[16.001s]    46 |     void goal_response_call(const GoalHandleFibonacci::[01;31m[KSharedPtr[m[K &goal_handle)
+[16.001s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[16.002s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:50:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::GoalHandleFibonacci::SharedPtr[m[K’ has not been declared
+[16.002s]    50 |     void feedback_response_call([01;31m[KGoalHandleFibonacci[m[K::SharedPtr, const std::shared_ptr<const Fibonacci::Feedback> feedback)
+[16.002s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[16.002s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:54:58:[m[K [01;31m[Kerror: [m[K‘[01m[KWrappedResult[m[K’ in ‘[01m[Kusing GoalHandleFibonacci = class rclcpp_action::ServerGoalHandle<example_interfaces::action::Fibonacci>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<example_interfaces::action::Fibonacci>[m[K’} does not name a type
+[16.002s]    54 |     void result_response_call(const GoalHandleFibonacci::[01;31m[KWrappedResult[m[K &result)
+[16.002s]       |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[16.039s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:[m[K In constructor ‘[01m[KSimpleActionClient::SimpleActionClient(const rclcpp::NodeOptions&)[m[K’:
+[16.039s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:17:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.039s]    17 |     SimpleActionClient([01;35m[Kconst rclcpp::NodeOptions &options[m[K) : Node("fibonacci_action_client")
+[16.039s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[16.081s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleActionClient::send_goal()[m[K’:
+[16.082s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:37:111:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp_action::Client<example_interfaces::action::Fibonacci>::GoalResponseCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>[m[K’} and ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’)
+[16.082s]    37 |         send_goal_options.goal_response_callback = std::bind(&SimpleActionClient::goal_response_call, this, _1[01;31m[K)[m[K;
+[16.082s]       |                                                                                                               [01;31m[K^[m[K
+[16.083s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.083s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.085s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.086s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.086s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.086s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.086s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+[16.086s]   530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+[16.087s]       |         [01;36m[K^~~~~~~~[m[K
+[16.087s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.087s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[16.087s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[16.087s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[16.087s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[16.088s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.088s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.088s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.088s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&][m[K’:
+[16.088s] [01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::_Callable<std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>, std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>, std::__invoke_result<std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>&, std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > > >; _Tp = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+[16.088s] [01m[K/usr/include/c++/11/bits/std_function.h:530:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::_Requires<std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)> >::value), std::decay<_Tp> >::type::type&, std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > > >, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&> std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>][m[K’
+[16.089s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:37:111:[m[K   required from here
+[16.089s] [01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&>[m[K’
+[16.089s]  2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[16.089s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[16.089s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.089s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.090s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.090s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.090s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.090s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.090s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+[16.090s]   540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+[16.090s]       |         [01;36m[K^~~~~~~~[m[K
+[16.091s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.091s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:37:111:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+[16.091s]    37 |         send_goal_options.goal_response_callback = std::bind(&SimpleActionClient::goal_response_call, this, _1[01;36m[K)[m[K;
+[16.091s]       |                                                                                                               [01;36m[K^[m[K
+[16.091s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.091s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.092s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.092s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.100s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.101s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.101s] [01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+[16.101s]   469 |       [01;36m[Koperator[m[K=(const function& __x)
+[16.102s]       |       [01;36m[K^~~~~~~~[m[K
+[16.102s] [01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kconst std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&[m[K’
+[16.102s]   469 |       operator=([01;36m[Kconst function& __x[m[K)
+[16.102s]       |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[16.102s] [01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+[16.103s]   487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+[16.103s]       |       [01;36m[K^~~~~~~~[m[K
+[16.103s] [01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&&[m[K’
+[16.103s]   487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+[16.103s]       |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[16.104s] [01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}; std::nullptr_t = std::nullptr_t][m[K’
+[16.104s]   501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+[16.104s]       |       [01;36m[K^~~~~~~~[m[K
+[16.104s] [01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[16.104s]   501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+[16.105s]       |                 [01;36m[K^~~~~~~~~[m[K
+[16.115s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:38:114:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp_action::Client<example_interfaces::action::Fibonacci>::FeedbackCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>[m[K’} and ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >), SimpleActionClient*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’)
+[16.115s]    38 |         send_goal_options.feedback_callback = std::bind(&SimpleActionClient::feedback_response_call, this, _1, _2[01;31m[K)[m[K;
+[16.115s]       |                                                                                                                  [01;31m[K^[m[K
+[16.115s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.116s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.116s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.116s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.116s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.116s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.117s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >}][m[K’
+[16.117s]   530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+[16.117s]       |         [01;36m[K^~~~~~~~[m[K
+[16.117s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.117s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[16.118s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[16.118s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[16.118s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[16.118s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.118s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.119s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.119s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&][m[K’:
+[16.123s] [01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>::_Callable<std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>, std::_Placeholder<2>))(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>, std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>, std::_Placeholder<2>))(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>, std::__invoke_result<std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>, std::_Placeholder<2>))(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&, std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > > > >; _Tp = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >}][m[K’
+[16.124s] [01m[K/usr/include/c++/11/bits/std_function.h:530:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>::_Requires<std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)> >::value), std::decay<_Tp> >::type::type&, std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > > > >, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&> std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>, std::_Placeholder<2>))(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>][m[K’
+[16.124s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:38:114:[m[K   required from here
+[16.124s] [01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&>[m[K’
+[16.125s]  2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[16.125s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[16.125s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.125s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.126s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.126s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.126s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.127s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.127s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >}][m[K’
+[16.127s]   540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+[16.127s]       |         [01;36m[K^~~~~~~~[m[K
+[16.127s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.128s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:38:114:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>, std::_Placeholder<2>))(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+[16.128s]    38 |         send_goal_options.feedback_callback = std::bind(&SimpleActionClient::feedback_response_call, this, _1, _2[01;36m[K)[m[K;
+[16.128s]       |                                                                                                                  [01;36m[K^[m[K
+[16.128s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.129s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.129s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.129s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.129s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.129s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.130s] [01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >}][m[K’
+[16.130s]   469 |       [01;36m[Koperator[m[K=(const function& __x)
+[16.130s]       |       [01;36m[K^~~~~~~~[m[K
+[16.130s] [01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >), SimpleActionClient*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’ to ‘[01m[Kconst std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&[m[K’
+[16.130s]   469 |       operator=([01;36m[Kconst function& __x[m[K)
+[16.130s]       |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[16.131s] [01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >}][m[K’
+[16.131s]   487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+[16.131s]       |       [01;36m[K^~~~~~~~[m[K
+[16.131s] [01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >), SimpleActionClient*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’ to ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)>&&[m[K’
+[16.131s]   487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+[16.131s]       |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[16.131s] [01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >}; std::nullptr_t = std::nullptr_t][m[K’
+[16.140s]   501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+[16.141s]       |       [01;36m[K^~~~~~~~[m[K
+[16.141s] [01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >), SimpleActionClient*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[16.141s]   501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+[16.141s]       |                 [01;36m[K^~~~~~~~~[m[K
+[16.141s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:39:106:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp_action::Client<example_interfaces::action::Fibonacci>::ResultCallback[m[K’ {aka ‘[01m[Kstd::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>[m[K’} and ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’)
+[16.141s]    39 |         send_goal_options.result_callback = std::bind(&SimpleActionClient::result_response_call, this, _1[01;31m[K)[m[K;
+[16.142s]       |                                                                                                          [01;31m[K^[m[K
+[16.142s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.142s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.142s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.142s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.142s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.143s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.143s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&}][m[K’
+[16.143s]   530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+[16.143s]       |         [01;36m[K^~~~~~~~[m[K
+[16.143s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.143s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[16.143s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[16.144s]                  from [01m[K/usr/include/c++/11/utility:70[m[K,
+[16.144s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[16.144s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.144s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.144s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.144s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>&][m[K’:
+[16.145s] [01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>::_Callable<std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>, std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>, std::__invoke_result<std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>&, const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&> >; _Tp = std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>&; _Res = void; _ArgTypes = {const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&}][m[K’
+[16.145s] [01m[K/usr/include/c++/11/bits/std_function.h:530:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>::_Requires<std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)> >::value), std::decay<_Tp> >::type::type&, const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&> >, std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>&> std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>][m[K’
+[16.145s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:39:106:[m[K   required from here
+[16.145s] [01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>&>[m[K’
+[16.145s]  2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[16.145s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[16.145s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.146s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.146s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.146s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.146s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.147s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.147s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&}][m[K’
+[16.147s]   540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+[16.147s]       |         [01;36m[K^~~~~~~~[m[K
+[16.147s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.147s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:39:106:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind<void (SimpleActionClient::*(SimpleActionClient*, std::_Placeholder<1>))(const int&)>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+[16.148s]    39 |         send_goal_options.result_callback = std::bind(&SimpleActionClient::result_response_call, this, _1[01;36m[K)[m[K;
+[16.148s]       |                                                                                                          [01;36m[K^[m[K
+[16.149s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[16.149s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[16.149s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[16.152s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/detail/fibonacci__struct.hpp:8[m[K,
+[16.153s]                  from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/action/fibonacci.hpp:7[m[K,
+[16.153s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:1[m[K:
+[16.156s] [01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&}][m[K’
+[16.157s]   469 |       [01;36m[Koperator[m[K=(const function& __x)
+[16.157s]       |       [01;36m[K^~~~~~~~[m[K
+[16.157s] [01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kconst std::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>&[m[K’
+[16.157s]   469 |       operator=([01;36m[Kconst function& __x[m[K)
+[16.157s]       |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[16.158s] [01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&}][m[K’
+[16.158s]   487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+[16.158s]       |       [01;36m[K^~~~~~~~[m[K
+[16.158s] [01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kstd::function<void(const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&)>&&[m[K’
+[16.158s]   487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+[16.159s]       |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[16.159s] [01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {const rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci>::WrappedResult&}; std::nullptr_t = std::nullptr_t][m[K’
+[16.159s]   501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+[16.159s]       |       [01;36m[K^~~~~~~~[m[K
+[16.159s] [01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, void (SimpleActionClient::*)(const int&), SimpleActionClient*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[16.159s]   501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+[16.159s]       |                 [01;36m[K^~~~~~~~~[m[K
+[16.160s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleActionClient::goal_response_call(const int&)[m[K’:
+[16.164s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:46:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.164s]    46 |     void goal_response_call([01;35m[Kconst GoalHandleFibonacci::SharedPtr &goal_handle[m[K)
+[16.164s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[16.165s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleActionClient::feedback_response_call(int, std::shared_ptr<const example_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)[m[K’:
+[16.165s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:50:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.165s]    50 |     void feedback_response_call(GoalHandleFibonacci::SharedPtr, [01;35m[Kconst std::shared_ptr<const Fibonacci::Feedback> feedback[m[K)
+[16.165s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[16.166s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleActionClient::result_response_call(const int&)[m[K’:
+[16.166s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_action_client.cpp:54:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.166s]    54 |     void result_response_call([01;35m[Kconst GoalHandleFibonacci::WrappedResult &result[m[K)
+[16.167s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.446s] gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] 오류 1
+[18.448s] gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/simple_action_client.dir/all] 오류 2
+[18.448s] gmake: *** [Makefile:146: all] 오류 2
+[18.453s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4

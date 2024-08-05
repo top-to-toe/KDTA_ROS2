@@ -1,0 +1,29 @@
+[0.143s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j4 -l4
+[0.648s] [ 25%] Built target moveTurtleSim
+[0.671s] [ 50%] Built target moveTurtleSim2
+[0.827s] [ 75%] Built target moveTurtleBot
+[0.897s] [100%] Built target moveTurtleBot2
+[1.045s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j4 -l4
+[1.846s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/move_t_sim
+[1.917s] -- Install configuration: ""
+[1.918s] -- Execute custom install script
+[1.925s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleSim
+[1.933s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleSim2
+[1.935s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleBot
+[1.939s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleBot2
+[1.947s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/package_run_dependencies/move_t_sim
+[1.948s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/parent_prefix_path/move_t_sim
+[1.949s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.sh
+[1.950s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.dsv
+[1.959s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/path.sh
+[1.970s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/path.dsv
+[1.973s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.bash
+[1.974s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.sh
+[1.976s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.zsh
+[1.982s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.dsv
+[1.992s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.dsv
+[2.077s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/packages/move_t_sim
+[2.078s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig.cmake
+[2.080s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig-version.cmake
+[2.082s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.xml
+[2.106s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/move_t_sim

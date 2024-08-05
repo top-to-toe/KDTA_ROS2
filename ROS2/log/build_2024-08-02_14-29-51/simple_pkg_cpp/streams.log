@@ -1,0 +1,125 @@
+[0.176s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[0.520s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.602s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.824s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.245s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.290s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.377s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.039s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.052s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.826s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.615s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.312s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.651s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.652s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/include
+[5.653s] -- Configured cppcheck exclude dirs and/or files: 
+[5.662s] -- Added test 'lint_cmake' to check CMake code style
+[5.682s] -- Added test 'uncrustify' to check C / C++ code style
+[5.682s] -- Configured uncrustify additional arguments: 
+[5.686s] -- Added test 'xmllint' to check XML markup files
+[5.696s] -- Configuring done
+[5.935s] -- Generating done
+[5.946s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[6.050s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[6.100s] [  7%] Built target helloworld
+[6.151s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher2[0m
+[6.215s] [ 15%] Built target hello_publisher2
+[6.279s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class[0m
+[6.343s] [ 23%] Built target hello_publisher_class
+[6.390s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class2[0m
+[6.490s] [ 34%] Built target hello_publisher_class2
+[6.527s] [35m[1mConsolidate compiler generated dependencies of target hello_subscriber_class[0m
+[6.619s] [ 46%] Built target hello_subscriber_class
+[6.693s] [35m[1mConsolidate compiler generated dependencies of target time_publisher_class[0m
+[6.759s] [ 57%] Built target time_publisher_class
+[6.817s] [35m[1mConsolidate compiler generated dependencies of target time_subscriber_class[0m
+[6.872s] [ 69%] Built target time_subscriber_class
+[6.909s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[6.973s] [ 76%] Built target simple_service_server
+[7.063s] [ 80%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[16.451s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.453s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:1[m[K:
+[16.454s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceClient::send_request()[m[K’:
+[16.469s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:44:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.469s]    44 |             RCLCPP_INFO(get_logger(), [01;35m[K"Result of %ld + %ld = %ld"[m[K, [32m[K_a[m[K, _b, result.get()->sum);
+[16.470s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~[m[K
+[16.470s]       |                                                                    [32m[K|[m[K
+[16.470s]       |                                                                    [32m[Kint[m[K
+[16.470s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:44:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.470s]    44 |             RCLCPP_INFO(get_logger(), "Result of [01;36m[K%ld[m[K + %ld = %ld", _a, _b, result.get()->sum);
+[16.471s]       |                                                  [01;36m[K~~^[m[K
+[16.471s]       |                                                    [01;36m[K|[m[K
+[16.471s]       |                                                    [01;36m[Klong int[m[K
+[16.471s]       |                                                  [32m[K%d[m[K
+[16.471s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.473s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:1[m[K:
+[16.473s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:44:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.473s]    44 |             RCLCPP_INFO(get_logger(), [01;35m[K"Result of %ld + %ld = %ld"[m[K, _a, [32m[K_b[m[K, result.get()->sum);
+[16.474s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      [32m[K~~[m[K
+[16.474s]       |                                                                        [32m[K|[m[K
+[16.474s]       |                                                                        [32m[Kint[m[K
+[16.474s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_client.cpp:44:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.492s]    44 |             RCLCPP_INFO(get_logger(), "Result of %ld + [01;36m[K%ld[m[K = %ld", _a, _b, result.get()->sum);
+[16.493s]       |                                                        [01;36m[K~~^[m[K
+[16.493s]       |                                                          [01;36m[K|[m[K
+[16.493s]       |                                                          [01;36m[Klong int[m[K
+[16.493s]       |                                                        [32m[K%d[m[K
+[20.946s] [ 84%] [32m[1mLinking CXX executable simple_service_client[0m
+[21.630s] [ 84%] Built target simple_service_client
+[21.666s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher[0m
+[21.745s] [ 92%] Built target hello_publisher
+[21.813s] [35m[1mConsolidate compiler generated dependencies of target helloOpenCV[0m
+[21.862s] [100%] Built target helloOpenCV
+[21.923s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[22.154s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[22.183s] -- Install configuration: ""
+[22.185s] -- Execute custom install script
+[22.191s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloworld
+[22.194s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloOpenCV
+[22.196s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher
+[22.197s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher2
+[22.203s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class
+[22.212s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class2
+[22.212s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_subscriber_class
+[22.213s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_publisher_class
+[22.213s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_subscriber_class
+[22.213s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/simple_service_server
+[22.213s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/simple_pkg_cpp/simple_service_client
+[22.242s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+[22.243s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+[22.244s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+[22.246s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+[22.248s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+[22.249s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+[22.250s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+[22.252s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+[22.253s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+[22.254s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+[22.255s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+[22.293s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+[22.294s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+[22.294s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+[22.307s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml
+[22.309s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp

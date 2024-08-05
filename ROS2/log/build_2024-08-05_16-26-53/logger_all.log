@@ -1,0 +1,382 @@
+[0.215s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.216s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75bf10232bf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75bf10232590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75bf10232590>>, mixin_verb=('build',))
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.593s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hansollee/kdta_ROS2_workspace'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(interface_example) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package 'interface_example' with type 'ros.ament_cmake' and name 'interface_example'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/arithmetic) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arithmetic' with type 'ros.ament_cmake' and name 'arithmetic'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_t_sim) by extension 'ros'
+[0.648s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_t_sim' with type 'ros.ament_cmake' and name 'move_t_sim'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ros'
+[0.651s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg' with type 'ros.ament_cmake' and name 'msg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_pkg_cpp) by extension 'ros'
+[0.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_pkg_cpp' with type 'ros.ament_cmake' and name 'simple_pkg_cpp'
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.708s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/hansollee/kdta_ROS2_workspace/install
+[0.712s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/humble
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_target' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.851s] DEBUG:colcon.colcon_core.verb:Building package 'interface_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hansollee/kdta_ROS2_workspace/build/interface_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hansollee/kdta_ROS2_workspace/install/interface_example', 'merge_install': False, 'path': '/home/hansollee/kdta_ROS2_workspace/interface_example', 'symlink_install': True, 'test_result_base': None}
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'cmake_target' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'move_t_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.852s] DEBUG:colcon.colcon_core.verb:Building package 'move_t_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim', 'merge_install': False, 'path': '/home/hansollee/kdta_ROS2_workspace/src/move_t_sim', 'symlink_install': True, 'test_result_base': None}
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'cmake_target' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.854s] DEBUG:colcon.colcon_core.verb:Building package 'msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hansollee/kdta_ROS2_workspace/build/msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hansollee/kdta_ROS2_workspace/install/msg', 'merge_install': False, 'path': '/home/hansollee/kdta_ROS2_workspace/src/msg', 'symlink_install': True, 'test_result_base': None}
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_target' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'simple_pkg_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.855s] DEBUG:colcon.colcon_core.verb:Building package 'simple_pkg_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp', 'merge_install': False, 'path': '/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_target' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'cmake_force_configure' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'ament_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'arithmetic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.855s] DEBUG:colcon.colcon_core.verb:Building package 'arithmetic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hansollee/kdta_ROS2_workspace/build/arithmetic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hansollee/kdta_ROS2_workspace/install/arithmetic', 'merge_install': False, 'path': '/home/hansollee/kdta_ROS2_workspace/src/arithmetic', 'symlink_install': True, 'test_result_base': None}
+[0.856s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.858s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.858s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hansollee/kdta_ROS2_workspace/interface_example' with build type 'ament_cmake'
+[0.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hansollee/kdta_ROS2_workspace/interface_example'
+[0.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.873s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hansollee/kdta_ROS2_workspace/src/move_t_sim' with build type 'ament_cmake'
+[0.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hansollee/kdta_ROS2_workspace/src/move_t_sim'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.885s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hansollee/kdta_ROS2_workspace/src/msg' with build type 'ament_cmake'
+[0.886s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hansollee/kdta_ROS2_workspace/src/msg'
+[0.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.896s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp' with build type 'ament_cmake'
+[0.896s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/interface_example -- -j4 -l4
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j4 -l4
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j4 -l4
+[1.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j4 -l4
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j4 -l4
+[2.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/move_t_sim
+[2.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[2.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/msg
+[2.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_t_sim)
+[2.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/move_t_sim
+[2.840s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim' for CMake module files
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim' for CMake config files
+[2.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_t_sim', 'cmake_prefix_path')
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/hook/cmake_prefix_path.ps1'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/hook/cmake_prefix_path.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/hook/cmake_prefix_path.sh'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/bin'
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/pkgconfig/move_t_sim.pc'
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/python3.10/site-packages'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/bin'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.ps1'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.dsv'
+[2.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.sh'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.bash'
+[2.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.zsh'
+[2.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/colcon-core/packages/move_t_sim)
+[2.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg)
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg' for CMake module files
+[2.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/msg
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg' for CMake config files
+[2.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg', 'cmake_prefix_path')
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/hook/cmake_prefix_path.ps1'
+[2.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/hook/cmake_prefix_path.dsv'
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/hook/cmake_prefix_path.sh'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/lib'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/bin'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/lib/pkgconfig/msg.pc'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/lib/python3.10/site-packages'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/bin'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.ps1'
+[3.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.sh'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.bash'
+[3.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.zsh'
+[3.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/msg/share/colcon-core/packages/msg)
+[3.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_t_sim)
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim' for CMake module files
+[3.387s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim' for CMake config files
+[3.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_t_sim', 'cmake_prefix_path')
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/hook/cmake_prefix_path.ps1'
+[3.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/hook/cmake_prefix_path.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/hook/cmake_prefix_path.sh'
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib'
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/bin'
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/pkgconfig/move_t_sim.pc'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/python3.10/site-packages'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/bin'
+[3.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.ps1'
+[3.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.dsv'
+[3.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.sh'
+[3.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.bash'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.zsh'
+[3.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/colcon-core/packages/move_t_sim)
+[3.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg)
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg' for CMake module files
+[3.557s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg' for CMake config files
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg', 'cmake_prefix_path')
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/hook/cmake_prefix_path.ps1'
+[3.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/hook/cmake_prefix_path.dsv'
+[3.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/hook/cmake_prefix_path.sh'
+[3.581s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/lib'
+[3.582s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/bin'
+[3.582s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/lib/pkgconfig/msg.pc'
+[3.587s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/lib/python3.10/site-packages'
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/msg/bin'
+[3.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.ps1'
+[3.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.dsv'
+[3.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.sh'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.bash'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.zsh'
+[3.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/msg/share/colcon-core/packages/msg)
+[3.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[3.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_pkg_cpp)
+[3.832s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp' for CMake module files
+[3.834s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp' for CMake config files
+[3.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_pkg_cpp', 'cmake_prefix_path')
+[3.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.ps1'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.dsv'
+[3.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.sh'
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib'
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/bin'
+[3.843s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/pkgconfig/simple_pkg_cpp.pc'
+[3.843s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/python3.10/site-packages'
+[3.844s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/bin'
+[3.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.ps1'
+[3.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv'
+[3.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.sh'
+[3.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.bash'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.zsh'
+[3.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/colcon-core/packages/simple_pkg_cpp)
+[3.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/interface_example -- -j4 -l4
+[4.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_pkg_cpp)
+[4.343s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp' for CMake module files
+[4.344s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp' for CMake config files
+[4.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_pkg_cpp', 'cmake_prefix_path')
+[4.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.ps1'
+[4.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.dsv'
+[4.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/hook/cmake_prefix_path.sh'
+[4.356s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib'
+[4.356s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/bin'
+[4.356s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/pkgconfig/simple_pkg_cpp.pc'
+[4.357s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/lib/python3.10/site-packages'
+[4.357s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/bin'
+[4.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.ps1'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.sh'
+[4.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.bash'
+[4.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/simple_pkg_cpp/package.zsh'
+[4.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp/share/colcon-core/packages/simple_pkg_cpp)
+[4.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/interface_example
+[4.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_example)
+[4.991s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example' for CMake module files
+[4.993s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example' for CMake config files
+[5.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/interface_example
+[5.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'cmake_prefix_path')
+[5.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.ps1'
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.dsv'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.sh'
+[5.025s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib'
+[5.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'ld_library_path_lib')
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/ld_library_path_lib.ps1'
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/ld_library_path_lib.dsv'
+[5.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/ld_library_path_lib.sh'
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/bin'
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/pkgconfig/interface_example.pc'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/python3.10/site-packages'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/bin'
+[5.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.ps1'
+[5.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.dsv'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.sh'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.bash'
+[5.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.zsh'
+[5.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/colcon-core/packages/interface_example)
+[5.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_example)
+[5.685s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example' for CMake module files
+[5.688s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example' for CMake config files
+[5.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'cmake_prefix_path')
+[5.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.ps1'
+[5.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.dsv'
+[5.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.sh'
+[5.712s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib'
+[5.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'ld_library_path_lib')
+[5.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/ld_library_path_lib.ps1'
+[5.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/ld_library_path_lib.dsv'
+[5.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/hook/ld_library_path_lib.sh'
+[5.731s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/bin'
+[5.732s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/pkgconfig/interface_example.pc'
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/python3.10/site-packages'
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/interface_example/bin'
+[5.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.ps1'
+[5.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.dsv'
+[5.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.sh'
+[5.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.bash'
+[5.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.zsh'
+[5.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/colcon-core/packages/interface_example)
+[5.753s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hansollee/kdta_ROS2_workspace/src/arithmetic' with build type 'ament_cmake'
+[5.754s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hansollee/kdta_ROS2_workspace/src/arithmetic'
+[5.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/arithmetic
+[8.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '0': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/arithmetic
+[8.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j4 -l4
+[18.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '2': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j4 -l4
+[18.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arithmetic)
+[18.804s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/arithmetic' for CMake module files
+[18.805s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/arithmetic' for CMake config files
+[18.806s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/bin'
+[18.807s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/lib/pkgconfig/arithmetic.pc'
+[18.809s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/lib/python3.10/site-packages'
+[18.810s] Level 1:colcon.colcon_core.environment:checking '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/bin'
+[18.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.ps1'
+[18.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.dsv'
+[18.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.sh'
+[18.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.bash'
+[18.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.zsh'
+[18.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/colcon-core/packages/arithmetic)
+[18.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.838s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[18.838s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.858s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.861s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.930s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hansollee/kdta_ROS2_workspace/install/local_setup.ps1'
+[18.935s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hansollee/kdta_ROS2_workspace/install/_local_setup_util_ps1.py'
+[18.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hansollee/kdta_ROS2_workspace/install/setup.ps1'
+[18.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hansollee/kdta_ROS2_workspace/install/local_setup.sh'
+[18.952s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hansollee/kdta_ROS2_workspace/install/_local_setup_util_sh.py'
+[18.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hansollee/kdta_ROS2_workspace/install/setup.sh'
+[18.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hansollee/kdta_ROS2_workspace/install/local_setup.bash'
+[18.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hansollee/kdta_ROS2_workspace/install/setup.bash'
+[18.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hansollee/kdta_ROS2_workspace/install/local_setup.zsh'
+[18.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hansollee/kdta_ROS2_workspace/install/setup.zsh'

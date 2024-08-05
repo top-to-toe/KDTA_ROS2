@@ -1,0 +1,14 @@
+[  6%] Built target helloworld
+[ 12%] Built target hello_publisher2
+[ 18%] Built target hello_publisher_class
+[ 28%] Built target hello_publisher_class2
+[ 37%] Built target hello_subscriber_class
+[ 46%] Built target time_publisher_class
+[ 56%] Built target time_subscriber_class
+[ 62%] Built target simple_service_server
+[ 68%] Built target simple_service_client
+[ 75%] Built target simple_service_client2
+[ 81%] Built target simple_action_server
+[35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable simple_action_client[0m

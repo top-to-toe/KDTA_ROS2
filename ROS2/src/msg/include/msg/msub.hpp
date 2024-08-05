@@ -8,14 +8,14 @@
 using namespace std;
 using namespace std::chrono_literals;
 
-class MessageSubscriber : public rclcpp::Node {
-    public: 
-        MessageSubscriber();
+class MessageSubscriber : public rclcpp::Node
+{
+public:
+    MessageSubscriber();
 
-    private: 
-        rclcpp::Subscription<std_msgs::msg::String>::SharedPtr _sub;
-        void sub_message_msg(const std_msgs::msg::String::SharedPtr msg);
-        
+private:
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr _sub;
+    void sub_message_msg(const std_msgs::msg::String::SharedPtr msg);
 };
 
 #endif

@@ -1,0 +1,22 @@
+[0.168s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4
+[0.519s] [  6%] Built target helloworld
+[0.662s] [ 12%] Built target hello_publisher2
+[0.817s] [ 18%] Built target hello_publisher_class
+[0.930s] [ 28%] Built target hello_publisher_class2
+[1.049s] [ 37%] Built target hello_subscriber_class
+[1.218s] [ 46%] Built target time_publisher_class
+[1.393s] [ 56%] Built target time_subscriber_class
+[1.512s] [ 62%] Built target simple_service_server
+[1.715s] [ 68%] Built target simple_service_client
+[1.853s] [ 75%] Built target simple_service_client2
+[2.021s] [ 81%] Built target simple_action_server
+[2.093s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[2.179s] [ 84%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[2.260s] [ 87%] [32m[1mLinking CXX executable simple_action_client[0m
+[2.553s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.553s] (.text+0x1b): undefined reference to `main'
+[2.561s] collect2: error: ld returned 1 exit status
+[2.570s] gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:185: simple_action_client] 오류 1
+[2.570s] gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/simple_action_client.dir/all] 오류 2
+[2.588s] gmake: *** [Makefile:146: all] 오류 2
+[2.607s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/simple_pkg_cpp -- -j4 -l4

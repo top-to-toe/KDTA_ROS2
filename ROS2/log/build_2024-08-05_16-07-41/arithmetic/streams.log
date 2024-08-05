@@ -1,0 +1,30 @@
+[0.057s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/arithmetic
+[0.089s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.552s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.654s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.658s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.676s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.932s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.935s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.825s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.825s]   find_package called with invalid argument "REQURED"
+[1.825s] 
+[1.826s] [0m
+[1.826s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.826s]   find_package called with invalid argument "REQURED"
+[1.826s] 
+[1.826s] [0m
+[1.827s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.830s]   ament_target_dependencies() the passed package name 'rclcpp_action' was not
+[1.830s]   found before
+[1.831s] Call Stack (most recent call first):
+[1.831s]   CMakeLists.txt:18 (ament_target_dependencies)
+[1.831s] 
+[1.831s] [0m
+[1.831s] -- Configuring incomplete, errors occurred!
+[1.831s] See also "/home/hansollee/kdta_ROS2_workspace/build/arithmetic/CMakeFiles/CMakeOutput.log".
+[1.858s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '1': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/arithmetic

@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'srv/Add_two_int.srv' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/hansollee/kdta_ROS2_workspace/interface_example'
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (rosidl_generate_interfaces)
+
+[0m

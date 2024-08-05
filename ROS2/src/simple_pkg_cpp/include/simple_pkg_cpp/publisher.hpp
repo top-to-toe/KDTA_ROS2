@@ -9,15 +9,16 @@
 using namespace std;
 using namespace std::chrono_literals;
 
-class HellowPublisher : public rclcpp::Node {
-    public: 
-        HellowPublisher();
+class HellowPublisher : public rclcpp::Node
+{
+public:
+    HellowPublisher();
 
-    private: 
-        int _i;
-        rclcpp::Publisher<std_msgs::msg::String>::SharedPtr _pub;
-        rclcpp::TimerBase::SharedPtr _timer;
-        void publish_helloworld_msg();
+private:
+    int _i;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr _pub;
+    rclcpp::TimerBase::SharedPtr _timer;
+    void publish_helloworld_msg();
 };
 
 #endif

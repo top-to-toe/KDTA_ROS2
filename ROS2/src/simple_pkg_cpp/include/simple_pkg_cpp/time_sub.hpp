@@ -9,14 +9,15 @@
 using namespace std;
 using namespace std::chrono_literals;
 
-class TimeSubscriber : public rclcpp::Node {
-    public: 
-        TimeSubscriber();
+class TimeSubscriber : public rclcpp::Node
+{
+public:
+    TimeSubscriber();
 
-    private: 
-        int _i;
-        rclcpp::Subscription<std_msgs::msg::Header>::SharedPtr _sub;
-        void sub_time_msg(const std_msgs::msg::Header::SharedPtr msg);
+private:
+    int _i;
+    rclcpp::Subscription<std_msgs::msg::Header>::SharedPtr _sub;
+    void sub_time_msg(const std_msgs::msg::Header::SharedPtr msg);
 };
 
 #endif
