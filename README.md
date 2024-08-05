@@ -360,7 +360,7 @@ pip3 install numpy
     - ros2 param dump /node_name
     - ros2 param load /node_name
 - Launch 파일 작성
-  - topic_final 에 추가
+  - msg에 추가
 
 ---
 
