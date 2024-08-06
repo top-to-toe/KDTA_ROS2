@@ -63,7 +63,7 @@ void Calculator::service_callback(const std::shared_ptr<ArithmeticOperator::Requ
         RCLCPP_ERROR(get_logger(), "Unknown operator");
     }
     _operator_str = std::to_string(_sub_a) + operator_str + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
-    RCLCPP_INFO(get_logger(), "Result: %s", operator_str.c_str());
+    RCLCPP_INFO(get_logger(), "Result: %s", _operator_str.c_str());
     response->arithmetic_result = _argument_result;
 }
 
@@ -94,7 +94,7 @@ void Calculator::execute_checker(const std::shared_ptr<GoalHandleArithmeticCheck
         total_sum += _argument_result;
         loop_rate.sleep();
         _partial_formula.push_back(_operator_str);
-        feedback->formula = _operator_std.c_str();
+        feedback->formula = _operator_str.c_str();
         if (_partial_formula.empty())
         {
             RCLCPP_INFO(get_logger(), "please check your formula");
