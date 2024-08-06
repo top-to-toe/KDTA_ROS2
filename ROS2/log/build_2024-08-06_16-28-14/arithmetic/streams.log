@@ -1,0 +1,60 @@
+[0.043s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/arithmetic:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j4 -l4
+[0.222s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.790s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.883s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.127s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.147s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.199s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.719s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.735s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.983s] -- Found interface_example: 0.0.0 (/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake)
+[3.526s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.659s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.991s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.991s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/arithmetic/include
+[3.991s] -- Configured cppcheck exclude dirs and/or files: 
+[3.992s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.000s] -- Added test 'lint_cmake' to check CMake code style
+[4.002s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.006s] -- Added test 'uncrustify' to check C / C++ code style
+[4.006s] -- Configured uncrustify additional arguments: 
+[4.009s] -- Added test 'xmllint' to check XML markup files
+[4.022s] -- Configuring done
+[4.139s] -- Generating done
+[4.151s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/arithmetic
+[4.280s] [35m[1mConsolidate compiler generated dependencies of target calculator[0m
+[4.346s] [ 42%] Built target calculator
+[4.398s] [35m[1mConsolidate compiler generated dependencies of target operator[0m
+[4.462s] [ 57%] [32mBuilding CXX object CMakeFiles/operator.dir/src/arithmetic/operator.cpp.o[0m
+[33.867s] [ 71%] [32m[1mLinking CXX executable operator[0m
+[35.379s] [ 71%] Built target operator
+[35.399s] [35m[1mConsolidate compiler generated dependencies of target argument[0m
+[35.423s] [100%] Built target argument
+[35.441s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '0': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/arithmetic:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j4 -l4
+[35.525s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/arithmetic:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/arithmetic
+[35.554s] -- Install configuration: ""
+[35.557s] -- Execute custom install script
+[35.558s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/lib/arithmetic/calculator
+[35.558s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/lib/arithmetic/argument
+[35.559s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/lib/arithmetic/operator
+[35.560s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/launch/arithmetic.launch.py
+[35.562s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/param/arithmetic.yaml
+[35.585s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/ament_index/resource_index/package_run_dependencies/arithmetic
+[35.585s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/ament_index/resource_index/parent_prefix_path/arithmetic
+[35.585s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/environment/ament_prefix_path.sh
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/environment/ament_prefix_path.dsv
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/environment/path.sh
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/environment/path.dsv
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/local_setup.bash
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/local_setup.sh
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/local_setup.zsh
+[35.586s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/local_setup.dsv
+[35.586s] -- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.dsv
+[35.617s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/ament_index/resource_index/packages/arithmetic
+[35.618s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/cmake/arithmeticConfig.cmake
+[35.619s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/cmake/arithmeticConfig-version.cmake
+[35.620s] -- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/arithmetic/share/arithmetic/package.xml
+[35.636s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '0': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/arithmetic:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/arithmetic

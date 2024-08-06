@@ -118,6 +118,7 @@ fi
 
 source /opt/ros/humble/setup.bash
 source ~/kdta_ROS2_workspace/install/local_setup.bash
+source /usr/share/gazebo/setup.sh
 
 alias rt='ros2 topic list'
 alias re='ros2 topic echo'

@@ -372,5 +372,32 @@ pip3 install numpy
 - 파라미터 코드 적용
   - param_events topic 활용.
   - 파라미터 변경시 이벤트 발생
-  - set_parameters_callback 함수 사용
-- 
+  - set_parameters_callback 함수 사용 <- 적용 안됨
+- action 코드 작성
+  - interface_example 에서 fibonacci action 추가
+  - simple_pkg_cpp 에서 action server, client 추가
+- 토픽, 서비스, 액션 통합 예제 작성
+  - arithmetic 패키지 작성
+  - interface_example 에 토픽, 서비스 액션 추가
+    - ArithmeticArgument.msg
+    - ArithmeticOperator.srv
+    - ArithmeticChecker.action
+  - 토픽 노드 작성
+    - argument.cpp
+
+---
+
+## 2024-08-06
+
+---
+
+- Arithmetic 패키지 작성
+  - 분할 컴파일
+    - argument.cpp -> argument.cpp, argument.hpp
+    - 폴더 나누기
+  - 서비스 노드 작성
+    - operator.cpp
+  - `실습` argument.cpp 기능 추가하기
+    - 램덤하게 operator 발행 하기
+    - 파라미터 설정해서 램덤 혹은 스테틱 설정하기
+    - 파라미터를 yaml 로 저장해서 launch 파일로 불러오기

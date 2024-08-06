@@ -5,29 +5,36 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(interface_example REQUIRED)
 find_package(rclcpp_action REQUIRED)
 
-#add executable
-# add_executable(calculator src/calculator.cpp)
-# ament_target_dependencies(calculator rclcpp interface_example rclcpp_action)
+include_directories(include)
 
-add_executable(argument src/argument.cpp)
+#add executable
+add_executable(calculator src/calculator/calculator.cpp src/calculator/main.cpp)
+ament_target_dependencies(calculator rclcpp interface_example rclcpp_action)
+
+add_executable(argument src/arithmetic/argument.cpp)
 ament_target_dependencies(argument rclcpp interface_example)
+
+add_executable(operator src/arithmetic/operator.cpp)
+ament_target_dependencies(operator rclcpp interface_example)
 
 #install
 install(TARGETS
-  # calculator
+  calculator
   argument
+  operator
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# install(DIRECTORY
-#   launch
-#   param
-#   DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY
+  launch
+  param
+  DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

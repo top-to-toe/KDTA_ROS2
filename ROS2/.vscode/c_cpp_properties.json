@@ -1,19 +1,21 @@
 {
     "configurations": [
         {
-            "name": "kdta_ros2",
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/include/**",
-                "/opt/ros/humble/include/**",
-                "/home/hansollee/kdta_ROS2_workspace/install/interface_example/include",
-                "${workspaceFolder}/build/interface_example/rosidl_generator_cpp"
+                "/opt/ros/humble/include/**"
             ],
+            "name": "ROS",
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
             "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-x64"
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4

@@ -1,0 +1,45 @@
+[0.020s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/home/hansollee/kdta_ROS2_workspace/install/arithmetic:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2
+[0.097s] [ 14%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o[0m
+[0.111s] [ 42%] Built target argument
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target operator[0m
+[0.183s] [ 71%] Built target operator
+[0.205s] [ 85%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/main.cpp.o[0m
+[3.993s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::sub_callback(interface_example::msg::ArithmeticArgument_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.993s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:24:46:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[3.994s]    24 |     _operator_str = std::to_string(_sub_a) + [01;31m[Koperator_str[m[K + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
+[3.994s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[3.994s]       |                                              [32m[K_operator_str[m[K
+[4.005s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::service_callback(std::shared_ptr<interface_example::srv::ArithmeticOperator_Request_<std::allocator<void> > >, std::shared_ptr<interface_example::srv::ArithmeticOperator_Response_<std::allocator<void> > >)[m[K’:
+[4.005s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.005s]    35 |         [01;31m[Koperator_str[m[K = "+";
+[4.005s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.005s]       |         [32m[K_operator_str[m[K
+[4.010s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.010s]    40 |         [01;31m[Koperator_str[m[K = "-";
+[4.010s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.010s]       |         [32m[K_operator_str[m[K
+[4.015s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.015s]    45 |         [01;31m[Koperator_str[m[K = "*";
+[4.015s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.016s]       |         [32m[K_operator_str[m[K
+[4.025s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.025s]    53 |             [01;31m[Koperator_str[m[K = "/";
+[4.025s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[4.025s]       |             [32m[K_operator_str[m[K
+[4.030s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.030s]    58 |             [01;31m[Koperator_str[m[K = "/";
+[4.030s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[4.030s]       |             [32m[K_operator_str[m[K
+[4.037s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:65:46:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.037s]    65 |     _operator_str = std::to_string(_sub_a) + [01;31m[Koperator_str[m[K + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
+[4.037s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[4.037s]       |                                              [32m[K_operator_str[m[K
+[4.052s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<interface_example::action::ArithmeticChecker> >)[m[K’:
+[4.052s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:97:29:[m[K [01;31m[Kerror: [m[K‘[01m[K_operator_std[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[4.052s]    97 |         feedback->formula = [01;31m[K_operator_std[m[K.c_str();
+[4.052s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[4.053s]       |                             [32m[K_operator_str[m[K
+[7.482s] gmake[2]: *** [CMakeFiles/calculator.dir/build.make:76: CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o] 오류 1
+[7.486s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/calculator.dir/all] 오류 2
+[7.486s] gmake: *** [Makefile:146: all] 오류 2
+[7.486s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '2': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/home/hansollee/kdta_ROS2_workspace/install/arithmetic:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2

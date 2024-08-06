@@ -1,0 +1,5 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/argument.dir/src/arithmetic/argument.cpp.o[0m
+[ 57%] Built target calculator
+[ 71%] [32mBuilding CXX object CMakeFiles/operator.dir/src/arithmetic/operator.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable argument[0m
+[ 85%] Built target argument
