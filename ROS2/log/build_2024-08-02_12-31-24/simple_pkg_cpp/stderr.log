@@ -1,4 +1,0 @@
-[01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_server.cpp:[m[K In constructor ‘[01m[KSimpleServiceServer::SimpleServiceServer()[m[K’:
-[01m[K/home/hansollee/kdta_ROS2_workspace/src/simple_pkg_cpp/src/simple_service_server.cpp:15:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos_profile[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
-   15 |             auto [01;35m[Kqos_profile[m[K = rclcpp::QoS(rclcpp::KeepLast(10));
-      |                  [01;35m[K^~~~~~~~~~~[m[K
