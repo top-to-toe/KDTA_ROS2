@@ -1,0 +1,11 @@
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:[m[K In member function ‘[01m[Kvoid RotateTurtle::feedback_callback(rclcpp_action::ClientGoalHandle<turtlesim::action::RotateAbsolute>::SharedPtr, std::shared_ptr<const turtlesim::action::RotateAbsolute_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:65:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 |         [01;35m[Kconst std::shared_ptr<const RotateAbsoulte::Feedback> feedback[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:[m[K In member function ‘[01m[Kvoid RotateTurtle::result_callback(const rclcpp_action::ClientGoalHandle<turtlesim::action::RotateAbsolute>::WrappedResult&)[m[K’:
+[01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:88:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::action::RotateAbsolute_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::action::RotateAbsolute_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   88 |         for (auto number : result.result->[01;31m[Ksequence[m[K)
+      |                                           [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rotate_turtle.dir/build.make:76: CMakeFiles/rotate_turtle.dir/src/rotate_turtle.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/rotate_turtle.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

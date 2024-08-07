@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
+[0.050s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.223s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.314s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.518s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.524s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.874s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.924s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.010s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.180s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.193s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.246s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.352s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.353s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/move_t_sim/include
+[1.354s] -- Configured cppcheck exclude dirs and/or files: 
+[1.358s] -- Added test 'lint_cmake' to check CMake code style
+[1.360s] -- Added test 'uncrustify' to check C / C++ code style
+[1.360s] -- Configured uncrustify additional arguments: 
+[1.361s] -- Added test 'xmllint' to check XML markup files
+[1.369s] -- Configuring done
+[1.404s] -- Generating done
+[1.410s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/move_t_sim
+[1.461s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleBot[0m
+[1.470s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleSim[0m
+[1.517s] [ 27%] Built target moveTurtleSim
+[1.520s] [ 54%] Built target moveTurtleBot
+[1.550s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleBot2[0m
+[1.587s] [ 81%] Built target moveTurtleBot2
+[1.588s] [ 90%] [32mBuilding CXX object CMakeFiles/rotate_turtle.dir/src/rotate_turtle.cpp.o[0m
+[4.419s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:[m[K In member function ‘[01m[Kvoid RotateTurtle::feedback_callback(rclcpp_action::ClientGoalHandle<turtlesim::action::RotateAbsolute>::SharedPtr, std::shared_ptr<const turtlesim::action::RotateAbsolute_Feedback_<std::allocator<void> > >)[m[K’:
+[4.419s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:65:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.420s]    65 |         [01;35m[Kconst std::shared_ptr<const RotateAbsoulte::Feedback> feedback[m[K)
+[4.420s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.423s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:[m[K In member function ‘[01m[Kvoid RotateTurtle::result_callback(const rclcpp_action::ClientGoalHandle<turtlesim::action::RotateAbsolute>::WrappedResult&)[m[K’:
+[4.423s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/rotate_turtle.cpp:88:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::action::RotateAbsolute_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::action::RotateAbsolute_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[4.423s]    88 |         for (auto number : result.result->[01;31m[Ksequence[m[K)
+[4.423s]       |                                           [01;31m[K^~~~~~~~[m[K
+[5.100s] gmake[2]: *** [CMakeFiles/rotate_turtle.dir/build.make:76: CMakeFiles/rotate_turtle.dir/src/rotate_turtle.cpp.o] 오류 1
+[5.100s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/rotate_turtle.dir/all] 오류 2
+[5.101s] gmake: *** [Makefile:146: all] 오류 2
+[5.102s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
