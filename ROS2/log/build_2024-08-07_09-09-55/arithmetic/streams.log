@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target calculator[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target argument[0m
+[0.066s] [ 14%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o[0m
+[0.080s] [ 42%] Built target argument
+[0.103s] [ 57%] [32mBuilding CXX object CMakeFiles/operator.dir/src/arithmetic/operator.cpp.o[0m
+[2.081s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::sub_callback(interface_example::msg::ArithmeticArgument_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.081s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:24:46:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.081s]    24 |     _operator_str = std::to_string(_sub_a) + [01;31m[Koperator_str[m[K + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
+[2.081s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[2.081s]       |                                              [32m[K_operator_str[m[K
+[2.089s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::service_callback(std::shared_ptr<interface_example::srv::ArithmeticOperator_Request_<std::allocator<void> > >, std::shared_ptr<interface_example::srv::ArithmeticOperator_Response_<std::allocator<void> > >)[m[K’:
+[2.089s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.089s]    35 |         [01;31m[Koperator_str[m[K = "+";
+[2.089s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.089s]       |         [32m[K_operator_str[m[K
+[2.092s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.093s]    40 |         [01;31m[Koperator_str[m[K = "-";
+[2.093s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.093s]       |         [32m[K_operator_str[m[K
+[2.096s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.096s]    45 |         [01;31m[Koperator_str[m[K = "*";
+[2.096s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.096s]       |         [32m[K_operator_str[m[K
+[2.100s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.100s]    53 |             [01;31m[Koperator_str[m[K = "/";
+[2.100s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.100s]       |             [32m[K_operator_str[m[K
+[2.103s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.103s]    58 |             [01;31m[Koperator_str[m[K = "/";
+[2.103s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.103s]       |             [32m[K_operator_str[m[K
+[2.107s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:65:46:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[2.107s]    65 |     _operator_str = std::to_string(_sub_a) + [01;31m[Koperator_str[m[K + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
+[2.107s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[2.107s]       |                                              [32m[K_operator_str[m[K
+[2.112s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<interface_example::action::ArithmeticChecker> >)[m[K’:
+[2.112s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:97:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kinterface_example::action::ArithmeticChecker_Feedback_<std::allocator<void> >::_formula_type[m[K’ {aka ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >[m[K’} and ‘[01m[Kconst char*[m[K’)
+[2.112s]    97 |         feedback->formula = _operator_str.c_str([01;31m[K)[m[K;
+[2.112s]       |                                                 [01;31m[K^[m[K
+[2.113s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[2.113s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.113s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.113s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.113s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/detail/arithmetic_checker__struct.hpp:8[m[K,
+[2.113s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/arithmetic_checker.hpp:7[m[K,
+[2.113s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/calculator/calculator.hpp:4[m[K,
+[2.113s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:1[m[K:
+[2.113s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[2.113s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[2.113s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.113s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&[m[K’
+[2.113s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[2.113s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.114s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[2.114s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[2.114s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[2.114s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[2.114s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/detail/arithmetic_checker__struct.hpp:8[m[K,
+[2.114s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/arithmetic_checker.hpp:7[m[K,
+[2.114s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/calculator/calculator.hpp:4[m[K,
+[2.114s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:1[m[K:
+[2.114s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[2.114s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.114s]       |       [01;36m[K^~~~~~~~[m[K
+[2.114s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&&[m[K’
+[2.114s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.114s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[2.114s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[2.115s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[2.115s]       |       [01;36m[K^~~~~~~~[m[K
+[2.115s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kstd::initializer_list<std::__cxx11::basic_string<char> >[m[K’
+[2.115s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[2.115s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.328s] gmake[2]: *** [CMakeFiles/calculator.dir/build.make:76: CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o] 오류 1
+[4.328s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/calculator.dir/all] 오류 2
+[4.328s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[6.700s] [ 71%] [32m[1mLinking CXX executable operator[0m
+[7.019s] [ 71%] Built target operator
+[7.020s] gmake: *** [Makefile:146: all] 오류 2
+[7.023s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '2': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2

@@ -1,0 +1,52 @@
+[0.019s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target calculator[0m
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target argument[0m
+[0.114s] [ 20%] Built target argument
+[0.117s] [ 30%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o[0m
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target operator[0m
+[0.198s] [ 50%] Built target operator
+[0.264s] [ 60%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[3.609s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/checker.cpp:[m[K In member function ‘[01m[Kvoid Checker::send_goal_total_sum(float)[m[K’:
+[3.609s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/checker.cpp:27:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgoal_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.609s]    27 |     auto [01;35m[Kgoal_msg[m[K = ArithmeticChecker::Goal();
+[3.610s]       |          [01;35m[K^~~~~~~~[m[K
+[3.613s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/checker.cpp:[m[K In member function ‘[01m[Kvoid Checker::get_arithmetic_action_feedback(const SharedPtr&, std::shared_ptr<const interface_example::action::ArithmeticChecker_Feedback_<std::allocator<void> > >)[m[K’:
+[3.613s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/checker.cpp:48:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.613s]    48 | void Checker::get_arithmetic_action_feedback([01;35m[Kconst GoalHandleArithmeticChecker::SharedPtr &goal_handle[m[K,
+[3.613s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.455s] [ 70%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/main.cpp.o[0m
+[9.256s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[9.256s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[9.257s]                  from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[9.258s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[9.259s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/detail/arithmetic_checker__struct.hpp:8[m[K,
+[9.259s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/arithmetic_checker.hpp:7[m[K,
+[9.260s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/checker/checker.hpp:4[m[K,
+[9.260s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/main.cpp:1[m[K:
+[9.260s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Checker; _Args = {float&}; _Tp = Checker][m[K’:
+[9.261s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Checker; _Args = {float&}; _Tp = Checker; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Checker>][m[K’
+[9.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {float&}; _Tp = Checker; _Alloc = std::allocator<Checker>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Checker; _Alloc = std::allocator<Checker>; _Args = {float&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.261s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Checker>; _Args = {float&}; _Tp = Checker; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.262s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Checker>; _Args = {float&}; _Tp = Checker][m[K’
+[9.262s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Checker; _Alloc = std::allocator<Checker>; _Args = {float&}][m[K’
+[9.262s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Checker; _Args = {float&}][m[K’
+[9.263s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/main.cpp:26:43:[m[K   required from here
+[9.263s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KChecker::Checker(float&)[m[K’
+[9.263s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[9.263s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.266s] In file included from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/checker/main.cpp:1[m[K:
+[9.267s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/checker/checker.hpp:20:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KChecker::Checker(float, const rclcpp::NodeOptions&)[m[K’
+[9.267s]    20 |     [01;36m[KChecker[m[K(float goal_sum, const rclcpp::NodeOptions &node_options);
+[9.267s]       |     [01;36m[K^~~~~~~[m[K
+[9.276s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/checker/checker.hpp:20:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[9.350s] gmake[2]: *** [CMakeFiles/checker.dir/build.make:90: CMakeFiles/checker.dir/src/checker/main.cpp.o] 오류 1
+[9.350s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/checker.dir/all] 오류 2
+[9.351s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[9.359s] [ 80%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/main.cpp.o[0m
+[12.910s] [ 90%] [32m[1mLinking CXX executable calculator[0m
+[13.281s] [ 90%] Built target calculator
+[13.281s] gmake: *** [Makefile:146: all] 오류 2
+[13.286s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '2': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2

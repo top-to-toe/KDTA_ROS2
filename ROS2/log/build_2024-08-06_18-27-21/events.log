@@ -1,0 +1,1073 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (interface_example) JobQueued: {'identifier': 'interface_example', 'dependencies': OrderedDict()}
+[0.000194] (move_t_sim) JobQueued: {'identifier': 'move_t_sim', 'dependencies': OrderedDict()}
+[0.000230] (msg) JobQueued: {'identifier': 'msg', 'dependencies': OrderedDict()}
+[0.000252] (interface_example) JobStarted: {'identifier': 'interface_example'}
+[0.004205] (move_t_sim) JobStarted: {'identifier': 'move_t_sim'}
+[0.007490] (interface_example) JobProgress: {'identifier': 'interface_example', 'progress': 'cmake'}
+[0.007799] (interface_example) Command: {'cmd': ['/usr/bin/cmake', '/home/hansollee/kdta_ROS2_workspace/interface_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/interface_example'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/interface_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/interface_example'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.010645] (move_t_sim) JobProgress: {'identifier': 'move_t_sim', 'progress': 'cmake'}
+[0.013697] (move_t_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/hansollee/kdta_ROS2_workspace/src/move_t_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/move_t_sim'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.057338] (move_t_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.057577] (interface_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.096203] (move_t_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.096629] (interface_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.101069] (-) TimerEvent: {}
+[0.101252] (move_t_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.101909] (interface_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.159856] (interface_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.165009] (interface_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.165345] (interface_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.165696] (interface_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.165826] (move_t_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.167856] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.170512] (move_t_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.170674] (move_t_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.170927] (move_t_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.172917] (move_t_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.202012] (-) TimerEvent: {}
+[0.228319] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.231332] (move_t_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.234002] (interface_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.234329] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.234730] (interface_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.236232] (move_t_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.236389] (move_t_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.236692] (move_t_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.236788] (interface_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.238059] (move_t_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.302750] (-) TimerEvent: {}
+[0.341936] (interface_example) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.343805] (move_t_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.384018] (interface_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.384265] (move_t_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.401385] (move_t_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.401567] (interface_example) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.403255] (-) TimerEvent: {}
+[0.403569] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.407746] (interface_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.429152] (move_t_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.435281] (move_t_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.438294] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.442230] (move_t_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.452240] (move_t_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.464774] (move_t_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.506879] (-) TimerEvent: {}
+[0.512636] (move_t_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.514330] (move_t_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.587551] (move_t_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.606687] (move_t_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.607117] (-) TimerEvent: {}
+[0.640751] (move_t_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.648017] (move_t_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.707377] (-) TimerEvent: {}
+[0.713456] (move_t_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.714026] (move_t_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.719597] (interface_example) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.780730] (move_t_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.781568] (move_t_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.808305] (-) TimerEvent: {}
+[0.854157] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.888446] (move_t_sim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.909423] (-) TimerEvent: {}
+[0.917931] (move_t_sim) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.982835] (move_t_sim) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.010917] (-) TimerEvent: {}
+[1.029728] (interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.044771] (interface_example) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.046153] (interface_example) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.065095] (interface_example) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.065413] (interface_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.065497] (interface_example) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.065561] (interface_example) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.071873] (move_t_sim) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.080789] (interface_example) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.084765] (move_t_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.111434] (-) TimerEvent: {}
+[1.111705] (interface_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.117737] (interface_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.146207] (move_t_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.146457] (move_t_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/move_t_sim/include\n'}
+[1.146506] (move_t_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.147032] (move_t_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.147638] (interface_example) StdoutLine: {'line': b'-- Generating done\n'}
+[1.147878] (move_t_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.147943] (move_t_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.148252] (move_t_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.149198] (move_t_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.150242] (interface_example) StdoutLine: {'line': b'-- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/interface_example\n'}
+[1.156376] (interface_example) CommandEnded: {'returncode': 0}
+[1.157016] (interface_example) JobProgress: {'identifier': 'interface_example', 'progress': 'build'}
+[1.158007] (interface_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hansollee/kdta_ROS2_workspace/build/interface_example', '--', '-j2', '-l2'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/interface_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/interface_example'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.164045] (move_t_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.165739] (move_t_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/move_t_sim\n'}
+[1.173622] (move_t_sim) CommandEnded: {'returncode': 0}
+[1.174697] (move_t_sim) JobProgress: {'identifier': 'move_t_sim', 'progress': 'build'}
+[1.174714] (move_t_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim', '--', '-j2', '-l2'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.203945] (interface_example) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.211803] (-) TimerEvent: {}
+[1.216966] (interface_example) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.242169] (move_t_sim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o\x1b[0m\n'}
+[1.283255] (move_t_sim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o\x1b[0m\n'}
+[1.312366] (-) TimerEvent: {}
+[1.412993] (-) TimerEvent: {}
+[1.514376] (-) TimerEvent: {}
+[1.615320] (-) TimerEvent: {}
+[1.716657] (-) TimerEvent: {}
+[1.816941] (-) TimerEvent: {}
+[1.918147] (-) TimerEvent: {}
+[2.020398] (-) TimerEvent: {}
+[2.122459] (-) TimerEvent: {}
+[2.223245] (-) TimerEvent: {}
+[2.324620] (-) TimerEvent: {}
+[2.426020] (-) TimerEvent: {}
+[2.530069] (-) TimerEvent: {}
+[2.631353] (-) TimerEvent: {}
+[2.705626] (interface_example) StdoutLine: {'line': b'[  3%] Built target interface_example__cpp\n'}
+[2.731741] (-) TimerEvent: {}
+[2.793543] (interface_example) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_interface_example\n'}
+[2.826673] (interface_example) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/msg/detail/arithmetic_argument__functions.c.o\x1b[0m\n'}
+[2.831152] (interface_example) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.832448] (-) TimerEvent: {}
+[2.927427] (interface_example) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o\x1b[0m\n'}
+[2.933646] (-) TimerEvent: {}
+[3.035272] (-) TimerEvent: {}
+[3.035560] (interface_example) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/arithmetic_operator__functions.c.o\x1b[0m\n'}
+[3.137802] (-) TimerEvent: {}
+[3.145712] (interface_example) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[3.240527] (-) TimerEvent: {}
+[3.341574] (-) TimerEvent: {}
+[3.368425] (interface_example) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/arithmetic_checker__functions.c.o\x1b[0m\n'}
+[3.443544] (-) TimerEvent: {}
+[3.545950] (-) TimerEvent: {}
+[3.594756] (interface_example) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_example/msg/arithmetic_argument__type_support.cpp.o\x1b[0m\n'}
+[3.606102] (interface_example) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libinterface_example__rosidl_generator_c.so\x1b[0m\n'}
+[3.646512] (-) TimerEvent: {}
+[3.728337] (interface_example) StdoutLine: {'line': b'[ 15%] Built target interface_example__rosidl_generator_c\n'}
+[3.749189] (-) TimerEvent: {}
+[3.766142] (interface_example) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.849607] (-) TimerEvent: {}
+[3.951081] (-) TimerEvent: {}
+[4.044596] (interface_example) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_example/srv/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[4.051953] (-) TimerEvent: {}
+[4.153939] (-) TimerEvent: {}
+[4.255719] (-) TimerEvent: {}
+[4.358524] (-) TimerEvent: {}
+[4.456670] (interface_example) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_example/srv/arithmetic_operator__type_support.cpp.o\x1b[0m\n'}
+[4.460725] (-) TimerEvent: {}
+[4.561103] (-) TimerEvent: {}
+[4.661678] (-) TimerEvent: {}
+[4.762611] (-) TimerEvent: {}
+[4.863092] (-) TimerEvent: {}
+[4.899300] (interface_example) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_example/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.966464] (-) TimerEvent: {}
+[4.985159] (interface_example) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_example/msg/detail/dds_fastrtps/arithmetic_argument__type_support.cpp.o\x1b[0m\n'}
+[5.067215] (-) TimerEvent: {}
+[5.170135] (-) TimerEvent: {}
+[5.273211] (-) TimerEvent: {}
+[5.373644] (-) TimerEvent: {}
+[5.475222] (-) TimerEvent: {}
+[5.503585] (interface_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_example/srv/detail/dds_fastrtps/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[5.576756] (-) TimerEvent: {}
+[5.614323] (interface_example) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_example/action/arithmetic_checker__type_support.cpp.o\x1b[0m\n'}
+[5.677680] (-) TimerEvent: {}
+[5.718003] (move_t_sim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o\x1b[0m\n'}
+[5.771441] (move_t_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.o\x1b[0m\n'}
+[5.778420] (-) TimerEvent: {}
+[5.879733] (-) TimerEvent: {}
+[5.981696] (-) TimerEvent: {}
+[6.082474] (-) TimerEvent: {}
+[6.149397] (interface_example) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_example/srv/detail/dds_fastrtps/arithmetic_operator__type_support.cpp.o\x1b[0m\n'}
+[6.183192] (-) TimerEvent: {}
+[6.285066] (-) TimerEvent: {}
+[6.316566] (interface_example) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.387075] (-) TimerEvent: {}
+[6.452058] (interface_example) StdoutLine: {'line': b'[ 30%] Built target interface_example__rosidl_typesupport_cpp\n'}
+[6.487347] (-) TimerEvent: {}
+[6.491686] (interface_example) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.587642] (-) TimerEvent: {}
+[6.663134] (interface_example) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_example/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[6.689615] (-) TimerEvent: {}
+[6.790110] (-) TimerEvent: {}
+[6.892623] (-) TimerEvent: {}
+[6.993105] (-) TimerEvent: {}
+[7.093708] (-) TimerEvent: {}
+[7.194612] (-) TimerEvent: {}
+[7.296716] (-) TimerEvent: {}
+[7.397152] (-) TimerEvent: {}
+[7.471982] (interface_example) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_example/action/detail/dds_fastrtps/arithmetic_checker__type_support.cpp.o\x1b[0m\n'}
+[7.497507] (-) TimerEvent: {}
+[7.586146] (interface_example) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_example/msg/detail/arithmetic_argument__type_support.cpp.o\x1b[0m\n'}
+[7.598261] (-) TimerEvent: {}
+[7.698742] (-) TimerEvent: {}
+[7.800940] (-) TimerEvent: {}
+[7.901966] (-) TimerEvent: {}
+[8.004679] (-) TimerEvent: {}
+[8.105239] (-) TimerEvent: {}
+[8.176063] (interface_example) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_example/srv/detail/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[8.205607] (-) TimerEvent: {}
+[8.289801] (interface_example) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.307242] (-) TimerEvent: {}
+[8.408357] (-) TimerEvent: {}
+[8.447564] (interface_example) StdoutLine: {'line': b'[ 39%] Built target interface_example__rosidl_typesupport_fastrtps_cpp\n'}
+[8.508446] (-) TimerEvent: {}
+[8.610604] (-) TimerEvent: {}
+[8.669731] (interface_example) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_example/srv/detail/arithmetic_operator__type_support.cpp.o\x1b[0m\n'}
+[8.711172] (-) TimerEvent: {}
+[8.811941] (-) TimerEvent: {}
+[8.832269] (interface_example) StdoutLine: {'line': b'running egg_info\n'}
+[8.841058] (interface_example) StdoutLine: {'line': b'creating interface_example.egg-info\n'}
+[8.841252] (interface_example) StdoutLine: {'line': b'writing interface_example.egg-info/PKG-INFO\n'}
+[8.841332] (interface_example) StdoutLine: {'line': b'writing dependency_links to interface_example.egg-info/dependency_links.txt\n'}
+[8.841450] (interface_example) StdoutLine: {'line': b'writing top-level names to interface_example.egg-info/top_level.txt\n'}
+[8.841630] (interface_example) StdoutLine: {'line': b"writing manifest file 'interface_example.egg-info/SOURCES.txt'\n"}
+[8.843193] (interface_example) StdoutLine: {'line': b"reading manifest file 'interface_example.egg-info/SOURCES.txt'\n"}
+[8.843667] (interface_example) StdoutLine: {'line': b"writing manifest file 'interface_example.egg-info/SOURCES.txt'\n"}
+[8.895888] (interface_example) StdoutLine: {'line': b'[ 41%] Built target ament_cmake_python_build_interface_example_egg\n'}
+[8.912494] (-) TimerEvent: {}
+[8.921902] (interface_example) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_example/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[9.014507] (-) TimerEvent: {}
+[9.115311] (-) TimerEvent: {}
+[9.216110] (-) TimerEvent: {}
+[9.257182] (interface_example) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_example/action/detail/arithmetic_checker__type_support.cpp.o\x1b[0m\n'}
+[9.318877] (-) TimerEvent: {}
+[9.420861] (-) TimerEvent: {}
+[9.521579] (-) TimerEvent: {}
+[9.622047] (-) TimerEvent: {}
+[9.723584] (-) TimerEvent: {}
+[9.826091] (-) TimerEvent: {}
+[9.841043] (interface_example) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.927821] (-) TimerEvent: {}
+[10.029221] (-) TimerEvent: {}
+[10.130018] (-) TimerEvent: {}
+[10.231637] (-) TimerEvent: {}
+[10.258787] (interface_example) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.334066] (-) TimerEvent: {}
+[10.423127] (interface_example) StdoutLine: {'line': b'[ 47%] Built target interface_example__rosidl_typesupport_introspection_cpp\n'}
+[10.434986] (-) TimerEvent: {}
+[10.478197] (interface_example) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.537378] (-) TimerEvent: {}
+[10.639654] (-) TimerEvent: {}
+[10.740060] (-) TimerEvent: {}
+[10.842245] (-) TimerEvent: {}
+[10.944711] (-) TimerEvent: {}
+[11.047576] (-) TimerEvent: {}
+[11.147813] (interface_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_example/msg/detail/arithmetic_argument__type_support_c.cpp.o\x1b[0m\n'}
+[11.148588] (-) TimerEvent: {}
+[11.250083] (-) TimerEvent: {}
+[11.356951] (-) TimerEvent: {}
+[11.458415] (-) TimerEvent: {}
+[11.461373] (interface_example) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_example/msg/detail/arithmetic_argument__type_support.c.o\x1b[0m\n'}
+[11.517240] (interface_example) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_example/srv/detail/add_two_int__type_support.c.o\x1b[0m\n'}
+[11.526433] (interface_example) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_example/srv/detail/add_two_int__type_support_c.cpp.o\x1b[0m\n'}
+[11.559116] (-) TimerEvent: {}
+[11.636734] (interface_example) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_example/srv/detail/arithmetic_operator__type_support.c.o\x1b[0m\n'}
+[11.659330] (-) TimerEvent: {}
+[11.682816] (interface_example) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_example/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[11.724827] (interface_example) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_example/action/detail/arithmetic_checker__type_support.c.o\x1b[0m\n'}
+[11.761045] (-) TimerEvent: {}
+[11.820234] (interface_example) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libinterface_example__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.861632] (-) TimerEvent: {}
+[11.925754] (interface_example) StdoutLine: {'line': b'[ 61%] Built target interface_example__rosidl_typesupport_introspection_c\n'}
+[11.942683] (interface_example) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_example/srv/detail/arithmetic_operator__type_support_c.cpp.o\x1b[0m\n'}
+[11.960324] (interface_example) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.962196] (-) TimerEvent: {}
+[12.063288] (-) TimerEvent: {}
+[12.164713] (-) TimerEvent: {}
+[12.266451] (-) TimerEvent: {}
+[12.369410] (-) TimerEvent: {}
+[12.470296] (-) TimerEvent: {}
+[12.524454] (interface_example) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_example/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[12.571876] (-) TimerEvent: {}
+[12.658578] (move_t_sim) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleSim\x1b[0m\n'}
+[12.667812] (interface_example) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_example/msg/arithmetic_argument__type_support.cpp.o\x1b[0m\n'}
+[12.671993] (-) TimerEvent: {}
+[12.772767] (-) TimerEvent: {}
+[12.779932] (interface_example) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_example/srv/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[12.835009] (move_t_sim) StdoutLine: {'line': b'[ 41%] Built target moveTurtleSim\n'}
+[12.842427] (interface_example) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_example/srv/arithmetic_operator__type_support.cpp.o\x1b[0m\n'}
+[12.859079] (move_t_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBot.cpp.o\x1b[0m\n'}
+[12.873145] (-) TimerEvent: {}
+[12.937722] (interface_example) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_example/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[12.973737] (-) TimerEvent: {}
+[13.057355] (interface_example) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_example/action/arithmetic_checker__type_support.cpp.o\x1b[0m\n'}
+[13.074343] (-) TimerEvent: {}
+[13.161041] (interface_example) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.174587] (-) TimerEvent: {}
+[13.196578] (interface_example) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_example/action/detail/arithmetic_checker__type_support_c.cpp.o\x1b[0m\n'}
+[13.265466] (interface_example) StdoutLine: {'line': b'[ 77%] Built target interface_example__rosidl_typesupport_c\n'}
+[13.277263] (-) TimerEvent: {}
+[13.379776] (-) TimerEvent: {}
+[13.481034] (-) TimerEvent: {}
+[13.581439] (-) TimerEvent: {}
+[13.683260] (-) TimerEvent: {}
+[13.713376] (interface_example) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_example__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.783600] (-) TimerEvent: {}
+[13.851652] (interface_example) StdoutLine: {'line': b'[ 79%] Built target interface_example__rosidl_typesupport_fastrtps_c\n'}
+[13.884202] (-) TimerEvent: {}
+[13.930025] (interface_example) StdoutLine: {'line': b'[ 79%] Built target interface_example\n'}
+[13.985442] (-) TimerEvent: {}
+[14.013792] (interface_example) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.086556] (-) TimerEvent: {}
+[14.187839] (-) TimerEvent: {}
+[14.290701] (-) TimerEvent: {}
+[14.393337] (-) TimerEvent: {}
+[14.495222] (-) TimerEvent: {}
+[14.598201] (-) TimerEvent: {}
+[14.700349] (-) TimerEvent: {}
+[14.801073] (-) TimerEvent: {}
+[14.901766] (-) TimerEvent: {}
+[15.002465] (-) TimerEvent: {}
+[15.104695] (-) TimerEvent: {}
+[15.207278] (-) TimerEvent: {}
+[15.309610] (-) TimerEvent: {}
+[15.410468] (-) TimerEvent: {}
+[15.511023] (-) TimerEvent: {}
+[15.612726] (-) TimerEvent: {}
+[15.714646] (-) TimerEvent: {}
+[15.815126] (-) TimerEvent: {}
+[15.916597] (-) TimerEvent: {}
+[16.017930] (-) TimerEvent: {}
+[16.090945] (interface_example) StdoutLine: {'line': b'[ 80%] Built target interface_example__py\n'}
+[16.119227] (-) TimerEvent: {}
+[16.165611] (interface_example) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_py.dir/rosidl_generator_py/interface_example/msg/_arithmetic_argument_s.c.o\x1b[0m\n'}
+[16.168158] (interface_example) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_py.dir/rosidl_generator_py/interface_example/srv/_add_two_int_s.c.o\x1b[0m\n'}
+[16.219890] (-) TimerEvent: {}
+[16.281890] (move_t_sim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBotcpp.cpp.o\x1b[0m\n'}
+[16.323349] (-) TimerEvent: {}
+[16.341138] (interface_example) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_py.dir/rosidl_generator_py/interface_example/action/_fibonacci_s.c.o\x1b[0m\n'}
+[16.341366] (interface_example) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_py.dir/rosidl_generator_py/interface_example/srv/_arithmetic_operator_s.c.o\x1b[0m\n'}
+[16.427370] (-) TimerEvent: {}
+[16.530879] (-) TimerEvent: {}
+[16.540980] (interface_example) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_generator_py.dir/rosidl_generator_py/interface_example/action/_arithmetic_checker_s.c.o\x1b[0m\n'}
+[16.631460] (-) TimerEvent: {}
+[16.725946] (interface_example) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/libinterface_example__rosidl_generator_py.so\x1b[0m\n'}
+[16.732618] (-) TimerEvent: {}
+[16.830122] (interface_example) StdoutLine: {'line': b'[ 90%] Built target interface_example__rosidl_generator_py\n'}
+[16.833451] (-) TimerEvent: {}
+[16.910475] (interface_example) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.936388] (-) TimerEvent: {}
+[17.036865] (-) TimerEvent: {}
+[17.138402] (-) TimerEvent: {}
+[17.181934] (interface_example) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.238527] (-) TimerEvent: {}
+[17.295412] (interface_example) StdoutLine: {'line': b'[ 93%] Built target interface_example__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.338695] (-) TimerEvent: {}
+[17.373768] (interface_example) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.439648] (-) TimerEvent: {}
+[17.540482] (-) TimerEvent: {}
+[17.640828] (-) TimerEvent: {}
+[17.655410] (interface_example) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.709211] (move_t_sim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleSim2\x1b[0m\n'}
+[17.716924] (interface_example) StdoutLine: {'line': b'[ 96%] Built target interface_example__rosidl_typesupport_introspection_c__pyext\n'}
+[17.741412] (-) TimerEvent: {}
+[17.791554] (interface_example) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/interface_example__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.843825] (-) TimerEvent: {}
+[17.944658] (-) TimerEvent: {}
+[17.993979] (interface_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_example/interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.046547] (-) TimerEvent: {}
+[18.046893] (interface_example) StdoutLine: {'line': b'[100%] Built target interface_example__rosidl_typesupport_c__pyext\n'}
+[18.070768] (interface_example) CommandEnded: {'returncode': 0}
+[18.126718] (move_t_sim) StdoutLine: {'line': b'[ 66%] Built target moveTurtleSim2\n'}
+[18.146747] (-) TimerEvent: {}
+[18.224038] (interface_example) JobProgress: {'identifier': 'interface_example', 'progress': 'install'}
+[18.231656] (interface_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hansollee/kdta_ROS2_workspace/build/interface_example'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/interface_example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/interface_example'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.238256] (interface_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.238750] (interface_example) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.239031] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/ament_index/resource_index/rosidl_interfaces/interface_example\n'}
+[18.246956] (-) TimerEvent: {}
+[18.247196] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/arithmetic_checker.h\n'}
+[18.254279] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__functions.h\n'}
+[18.260740] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__struct.h\n'}
+[18.267650] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__type_support.h\n'}
+[18.274962] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__functions.h\n'}
+[18.282115] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__struct.h\n'}
+[18.289781] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__type_support.h\n'}
+[18.297290] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/fibonacci.h\n'}
+[18.303924] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/arithmetic_argument.h\n'}
+[18.310518] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__functions.h\n'}
+[18.317187] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__struct.h\n'}
+[18.323889] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__type_support.h\n'}
+[18.331247] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.338050] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/add_two_int.h\n'}
+[18.344720] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/arithmetic_operator.h\n'}
+[18.348813] (-) TimerEvent: {}
+[18.350954] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__functions.h\n'}
+[18.357820] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__struct.h\n'}
+[18.364446] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__type_support.h\n'}
+[18.370915] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__functions.h\n'}
+[18.378004] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__struct.h\n'}
+[18.383741] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__type_support.h\n'}
+[18.391262] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/library_path.sh\n'}
+[18.399322] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/library_path.dsv\n'}
+[18.406948] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_c.h\n'}
+[18.414032] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[18.420848] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_fastrtps_c.h\n'}
+[18.427436] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.435417] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_fastrtps_c.h\n'}
+[18.442197] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_fastrtps_c.h\n'}
+[18.449165] (-) TimerEvent: {}
+[18.449430] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_c.h\n'}
+[18.455922] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[18.463025] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_introspection_c.h\n'}
+[18.469857] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.476089] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_introspection_c.h\n'}
+[18.486214] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_introspection_c.h\n'}
+[18.494767] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/arithmetic_checker.hpp\n'}
+[18.501986] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__builder.hpp\n'}
+[18.508906] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__struct.hpp\n'}
+[18.516221] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__traits.hpp\n'}
+[18.523869] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__builder.hpp\n'}
+[18.532424] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__struct.hpp\n'}
+[18.539589] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__traits.hpp\n'}
+[18.546848] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/fibonacci.hpp\n'}
+[18.550353] (-) TimerEvent: {}
+[18.554181] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/arithmetic_argument.hpp\n'}
+[18.561632] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__builder.hpp\n'}
+[18.568791] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__struct.hpp\n'}
+[18.575440] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__traits.hpp\n'}
+[18.582989] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/add_two_int.hpp\n'}
+[18.590267] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/arithmetic_operator.hpp\n'}
+[18.598957] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__builder.hpp\n'}
+[18.610543] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__struct.hpp\n'}
+[18.619333] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__traits.hpp\n'}
+[18.626179] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__builder.hpp\n'}
+[18.632969] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__struct.hpp\n'}
+[18.639520] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__traits.hpp\n'}
+[18.647582] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.651453] (-) TimerEvent: {}
+[18.657330] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.664070] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.670677] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.677481] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.685866] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.693839] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.700995] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.707983] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.714973] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/add_two_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.722065] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/include/interface_example/interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.730038] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/pythonpath.sh\n'}
+[18.737236] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/pythonpath.dsv\n'}
+[18.745426] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.751921] (-) TimerEvent: {}
+[18.752180] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.759550] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.766591] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.774290] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/__init__.py\n'}
+[18.781803] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/_interface_example_s.ep.rosidl_typesupport_c.c\n'}
+[18.789093] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.797823] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/_interface_example_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.805119] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/__init__.py\n'}
+[18.812085] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/_arithmetic_checker.py\n'}
+[18.819033] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/_arithmetic_checker_s.c\n'}
+[18.828852] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/_fibonacci.py\n'}
+[18.839951] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/_fibonacci_s.c\n'}
+[18.847675] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.853874] (-) TimerEvent: {}
+[18.854546] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.861637] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.868550] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/libinterface_example__rosidl_generator_py.so\n'}
+[18.875163] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/msg/__init__.py\n'}
+[18.885191] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/msg/_arithmetic_argument.py\n'}
+[18.893943] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/msg/_arithmetic_argument_s.c\n'}
+[18.902115] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/__init__.py\n'}
+[18.910956] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_add_two_int.py\n'}
+[18.918128] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_add_two_int_s.c\n'}
+[18.925605] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_arithmetic_operator.py\n'}
+[18.937531] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_arithmetic_operator_s.c\n'}
+[18.948225] (interface_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.948476] (interface_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.948738] (interface_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.948945] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/msg/ArithmeticArgument.idl\n'}
+[18.954326] (-) TimerEvent: {}
+[18.958773] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/AddTwoInt.idl\n'}
+[18.965638] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/ArithmeticOperator.idl\n'}
+[18.972606] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/action/Fibonacci.idl\n'}
+[18.979735] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/action/ArithmeticChecker.idl\n'}
+[18.988976] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/msg/ArithmeticArgument.msg\n'}
+[18.998079] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/AddTwoInt.srv\n'}
+[19.005931] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/AddTwoInt_Request.msg\n'}
+[19.013193] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/AddTwoInt_Response.msg\n'}
+[19.020375] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/ArithmeticOperator.srv\n'}
+[19.027099] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/ArithmeticOperator_Request.msg\n'}
+[19.034021] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/srv/ArithmeticOperator_Response.msg\n'}
+[19.041038] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/action/Fibonacci.action\n'}
+[19.049100] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/action/ArithmeticChecker.action\n'}
+[19.055000] (-) TimerEvent: {}
+[19.059022] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/ament_index/resource_index/package_run_dependencies/interface_example\n'}
+[19.066908] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/ament_index/resource_index/parent_prefix_path/interface_example\n'}
+[19.073479] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/ament_prefix_path.sh\n'}
+[19.080665] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/ament_prefix_path.dsv\n'}
+[19.088927] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/path.sh\n'}
+[19.096920] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/environment/path.dsv\n'}
+[19.105260] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/local_setup.bash\n'}
+[19.112942] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/local_setup.sh\n'}
+[19.120117] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/local_setup.zsh\n'}
+[19.127677] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/local_setup.dsv\n'}
+[19.134646] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.dsv\n'}
+[19.141963] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/ament_index/resource_index/packages/interface_example\n'}
+[19.149133] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/rosidl_cmake-extras.cmake\n'}
+[19.155366] (-) TimerEvent: {}
+[19.155622] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.162391] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.168894] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.175529] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.182990] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.192021] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.200184] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_exampleConfig.cmake\n'}
+[19.207302] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_exampleConfig-version.cmake\n'}
+[19.214349] (interface_example) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/package.xml\n'}
+[19.221705] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_generator_c.so\n'}
+[19.221986] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_generator_c.so" to ""\n'}
+[19.222077] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_c.so\n'}
+[19.222254] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.222323] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_c.so\n'}
+[19.222513] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.222593] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_c.so\n'}
+[19.222746] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_c.so" to ""\n'}
+[19.222823] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.223072] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.223164] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_cpp.so\n'}
+[19.223382] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.223471] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_cpp.so\n'}
+[19.223620] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_typesupport_cpp.so" to ""\n'}
+[19.255769] (-) TimerEvent: {}
+[19.256556] (interface_example) StdoutLine: {'line': b"Listing '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example'...\n"}
+[19.256674] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/__init__.py'...\n"}
+[19.256722] (interface_example) StdoutLine: {'line': b"Listing '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action'...\n"}
+[19.256759] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/__init__.py'...\n"}
+[19.256794] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/_arithmetic_checker.py'...\n"}
+[19.256830] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/action/_fibonacci.py'...\n"}
+[19.256865] (interface_example) StdoutLine: {'line': b"Listing '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/msg'...\n"}
+[19.256898] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/msg/__init__.py'...\n"}
+[19.256932] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/msg/_arithmetic_argument.py'...\n"}
+[19.256963] (interface_example) StdoutLine: {'line': b"Listing '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv'...\n"}
+[19.256996] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/__init__.py'...\n"}
+[19.257028] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_add_two_int.py'...\n"}
+[19.257060] (interface_example) StdoutLine: {'line': b"Compiling '/home/hansollee/kdta_ROS2_workspace/install/interface_example/local/lib/python3.10/dist-packages/interface_example/srv/_arithmetic_operator.py'...\n"}
+[19.259896] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_generator_py.so\n'}
+[19.260187] (interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib/libinterface_example__rosidl_generator_py.so" to ""\n'}
+[19.260297] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_cExport.cmake\n'}
+[19.260375] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.260444] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.260523] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.260613] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.260693] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.260781] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cExport.cmake\n'}
+[19.260862] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.260949] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_cppExport.cmake\n'}
+[19.261110] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.261396] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.261564] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.261715] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.261871] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cppExport.cmake\n'}
+[19.262021] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/interface_example__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.262174] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_pyExport.cmake\n'}
+[19.262327] (interface_example) StdoutLine: {'line': b'-- Installing: /home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake/export_interface_example__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.264929] (interface_example) CommandEnded: {'returncode': 0}
+[19.356549] (-) TimerEvent: {}
+[19.389310] (interface_example) JobEnded: {'identifier': 'interface_example', 'rc': 0}
+[19.389716] (msg) JobStarted: {'identifier': 'msg'}
+[19.394404] (msg) JobProgress: {'identifier': 'msg', 'progress': 'cmake'}
+[19.394590] (msg) Command: {'cmd': ['/usr/bin/cmake', '/home/hansollee/kdta_ROS2_workspace/src/msg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/msg'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/msg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.440290] (msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[19.457095] (-) TimerEvent: {}
+[19.481971] (msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[19.487052] (msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[19.547748] (msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.552792] (msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[19.552951] (msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.553218] (msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.555185] (msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.557294] (-) TimerEvent: {}
+[19.619007] (msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.623706] (msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.623911] (msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.624378] (msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.625774] (msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[19.657631] (-) TimerEvent: {}
+[19.731070] (msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[19.758894] (-) TimerEvent: {}
+[19.772282] (msg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[19.792437] (msg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[19.822704] (msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[19.825684] (msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[19.831105] (msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[19.839916] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.852444] (msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.860213] (-) TimerEvent: {}
+[19.901554] (msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[19.903273] (msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[19.960386] (-) TimerEvent: {}
+[19.970043] (msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[19.990395] (msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[20.026260] (msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.032778] (msg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[20.060747] (-) TimerEvent: {}
+[20.087315] (msg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[20.087698] (msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.148097] (msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[20.148917] (msg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.160840] (-) TimerEvent: {}
+[20.258426] (msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.262585] (-) TimerEvent: {}
+[20.318366] (msg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[20.318561] (msg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/msg/include\n'}
+[20.318606] (msg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[20.318928] (msg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[20.319357] (msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.319659] (msg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[20.320438] (msg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[20.320519] (msg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[20.320749] (msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.321561] (msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.334524] (msg) StdoutLine: {'line': b'-- Generating done\n'}
+[20.335676] (msg) StdoutLine: {'line': b'-- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/msg\n'}
+[20.343517] (msg) CommandEnded: {'returncode': 0}
+[20.344978] (msg) JobProgress: {'identifier': 'msg', 'progress': 'build'}
+[20.345031] (msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hansollee/kdta_ROS2_workspace/build/msg', '--', '-j2', '-l2'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/msg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.363231] (-) TimerEvent: {}
+[20.385947] (msg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/message_publisher_class.dir/src/message_publisher_class.cpp.o\x1b[0m\n'}
+[20.463431] (-) TimerEvent: {}
+[20.563772] (-) TimerEvent: {}
+[20.664724] (-) TimerEvent: {}
+[20.765065] (-) TimerEvent: {}
+[20.867673] (-) TimerEvent: {}
+[20.968767] (-) TimerEvent: {}
+[21.070452] (-) TimerEvent: {}
+[21.172385] (-) TimerEvent: {}
+[21.273729] (-) TimerEvent: {}
+[21.374366] (-) TimerEvent: {}
+[21.476366] (-) TimerEvent: {}
+[21.578983] (-) TimerEvent: {}
+[21.681092] (-) TimerEvent: {}
+[21.781626] (-) TimerEvent: {}
+[21.882024] (-) TimerEvent: {}
+[21.983513] (-) TimerEvent: {}
+[22.084260] (-) TimerEvent: {}
+[22.186880] (-) TimerEvent: {}
+[22.289104] (-) TimerEvent: {}
+[22.389844] (-) TimerEvent: {}
+[22.490214] (-) TimerEvent: {}
+[22.568672] (msg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/message_publisher_class.dir/src/mpub.cpp.o\x1b[0m\n'}
+[22.590616] (-) TimerEvent: {}
+[22.694348] (-) TimerEvent: {}
+[22.795106] (-) TimerEvent: {}
+[22.896587] (-) TimerEvent: {}
+[22.997055] (-) TimerEvent: {}
+[23.097802] (-) TimerEvent: {}
+[23.199189] (-) TimerEvent: {}
+[23.302460] (-) TimerEvent: {}
+[23.403432] (-) TimerEvent: {}
+[23.505417] (-) TimerEvent: {}
+[23.606759] (-) TimerEvent: {}
+[23.710522] (-) TimerEvent: {}
+[23.712158] (move_t_sim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleBot\x1b[0m\n'}
+[23.812741] (-) TimerEvent: {}
+[23.913677] (-) TimerEvent: {}
+[24.006136] (move_t_sim) StdoutLine: {'line': b'[ 75%] Built target moveTurtleBot\n'}
+[24.016072] (-) TimerEvent: {}
+[24.022038] (move_t_sim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBot2.cpp.o\x1b[0m\n'}
+[24.116251] (-) TimerEvent: {}
+[24.218797] (-) TimerEvent: {}
+[24.319627] (-) TimerEvent: {}
+[24.420521] (-) TimerEvent: {}
+[24.521878] (-) TimerEvent: {}
+[24.623231] (-) TimerEvent: {}
+[24.723907] (-) TimerEvent: {}
+[24.825678] (-) TimerEvent: {}
+[24.928975] (-) TimerEvent: {}
+[25.031428] (-) TimerEvent: {}
+[25.133430] (-) TimerEvent: {}
+[25.236641] (-) TimerEvent: {}
+[25.338540] (-) TimerEvent: {}
+[25.440547] (-) TimerEvent: {}
+[25.541130] (-) TimerEvent: {}
+[25.642760] (-) TimerEvent: {}
+[25.743699] (-) TimerEvent: {}
+[25.845937] (-) TimerEvent: {}
+[25.903505] (msg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable message_publisher_class\x1b[0m\n'}
+[25.946452] (-) TimerEvent: {}
+[26.035610] (msg) StdoutLine: {'line': b'[ 20%] Built target message_publisher_class\n'}
+[26.047823] (-) TimerEvent: {}
+[26.054359] (msg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/message_subscriber_class.dir/src/message_subscriber_class.cpp.o\x1b[0m\n'}
+[26.150379] (-) TimerEvent: {}
+[26.253469] (-) TimerEvent: {}
+[26.356487] (-) TimerEvent: {}
+[26.381357] (move_t_sim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBotcpp2.cpp.o\x1b[0m\n'}
+[26.458658] (-) TimerEvent: {}
+[26.560326] (-) TimerEvent: {}
+[26.661453] (-) TimerEvent: {}
+[26.763516] (-) TimerEvent: {}
+[26.865734] (-) TimerEvent: {}
+[26.967453] (-) TimerEvent: {}
+[27.070112] (-) TimerEvent: {}
+[27.171202] (-) TimerEvent: {}
+[27.272340] (-) TimerEvent: {}
+[27.372882] (-) TimerEvent: {}
+[27.474129] (-) TimerEvent: {}
+[27.576438] (-) TimerEvent: {}
+[27.676920] (-) TimerEvent: {}
+[27.777677] (-) TimerEvent: {}
+[27.878871] (-) TimerEvent: {}
+[27.979802] (-) TimerEvent: {}
+[28.082490] (-) TimerEvent: {}
+[28.183126] (-) TimerEvent: {}
+[28.267321] (msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/message_subscriber_class.dir/src/msub.cpp.o\x1b[0m\n'}
+[28.283617] (-) TimerEvent: {}
+[28.384466] (-) TimerEvent: {}
+[28.486970] (-) TimerEvent: {}
+[28.589880] (-) TimerEvent: {}
+[28.690371] (-) TimerEvent: {}
+[28.792772] (-) TimerEvent: {}
+[28.893358] (-) TimerEvent: {}
+[28.994479] (-) TimerEvent: {}
+[29.096077] (-) TimerEvent: {}
+[29.198280] (-) TimerEvent: {}
+[29.299229] (-) TimerEvent: {}
+[29.402100] (-) TimerEvent: {}
+[29.503512] (-) TimerEvent: {}
+[29.604241] (-) TimerEvent: {}
+[29.707039] (-) TimerEvent: {}
+[29.808163] (-) TimerEvent: {}
+[29.910202] (-) TimerEvent: {}
+[30.013411] (-) TimerEvent: {}
+[30.115683] (-) TimerEvent: {}
+[30.217888] (-) TimerEvent: {}
+[30.318719] (-) TimerEvent: {}
+[30.419666] (-) TimerEvent: {}
+[30.521618] (-) TimerEvent: {}
+[30.622311] (-) TimerEvent: {}
+[30.723562] (-) TimerEvent: {}
+[30.825402] (-) TimerEvent: {}
+[30.925997] (-) TimerEvent: {}
+[31.027833] (-) TimerEvent: {}
+[31.130134] (-) TimerEvent: {}
+[31.232833] (-) TimerEvent: {}
+[31.333185] (-) TimerEvent: {}
+[31.436212] (-) TimerEvent: {}
+[31.537868] (-) TimerEvent: {}
+[31.640657] (-) TimerEvent: {}
+[31.741934] (-) TimerEvent: {}
+[31.843533] (-) TimerEvent: {}
+[31.944380] (-) TimerEvent: {}
+[32.047768] (-) TimerEvent: {}
+[32.148232] (-) TimerEvent: {}
+[32.250031] (-) TimerEvent: {}
+[32.350538] (-) TimerEvent: {}
+[32.451201] (-) TimerEvent: {}
+[32.551623] (-) TimerEvent: {}
+[32.652527] (-) TimerEvent: {}
+[32.754938] (-) TimerEvent: {}
+[32.856631] (-) TimerEvent: {}
+[32.958239] (-) TimerEvent: {}
+[33.062475] (-) TimerEvent: {}
+[33.101240] (move_t_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleBot2\x1b[0m\n'}
+[33.162693] (-) TimerEvent: {}
+[33.263040] (-) TimerEvent: {}
+[33.364052] (-) TimerEvent: {}
+[33.388759] (move_t_sim) StdoutLine: {'line': b'[100%] Built target moveTurtleBot2\n'}
+[33.401824] (move_t_sim) CommandEnded: {'returncode': 0}
+[33.439667] (move_t_sim) JobProgress: {'identifier': 'move_t_sim', 'progress': 'install'}
+[33.439722] (move_t_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[33.446278] (move_t_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.446631] (move_t_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.446971] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleSim\n'}
+[33.454012] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleSim2\n'}
+[33.460456] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleBot\n'}
+[33.466013] (-) TimerEvent: {}
+[33.466857] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/lib/move_t_sim/moveTurtleBot2\n'}
+[33.473586] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/package_run_dependencies/move_t_sim\n'}
+[33.480463] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/parent_prefix_path/move_t_sim\n'}
+[33.487396] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.sh\n'}
+[33.500296] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.dsv\n'}
+[33.508464] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/path.sh\n'}
+[33.517010] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/environment/path.dsv\n'}
+[33.523996] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.bash\n'}
+[33.531972] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.sh\n'}
+[33.538813] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.zsh\n'}
+[33.545390] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/local_setup.dsv\n'}
+[33.551714] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.dsv\n'}
+[33.558679] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/ament_index/resource_index/packages/move_t_sim\n'}
+[33.565317] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig.cmake\n'}
+[33.567263] (-) TimerEvent: {}
+[33.571947] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig-version.cmake\n'}
+[33.578955] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/move_t_sim/share/move_t_sim/package.xml\n'}
+[33.589510] (move_t_sim) CommandEnded: {'returncode': 0}
+[33.634322] (move_t_sim) JobEnded: {'identifier': 'move_t_sim', 'rc': 0}
+[33.669586] (-) TimerEvent: {}
+[33.770219] (-) TimerEvent: {}
+[33.870697] (-) TimerEvent: {}
+[33.973068] (-) TimerEvent: {}
+[34.073862] (-) TimerEvent: {}
+[34.174725] (-) TimerEvent: {}
+[34.275263] (-) TimerEvent: {}
+[34.376070] (-) TimerEvent: {}
+[34.476938] (-) TimerEvent: {}
+[34.547894] (msg) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable message_subscriber_class\x1b[0m\n'}
+[34.579514] (-) TimerEvent: {}
+[34.680181] (-) TimerEvent: {}
+[34.780735] (-) TimerEvent: {}
+[34.797081] (msg) StdoutLine: {'line': b'[ 40%] Built target message_subscriber_class\n'}
+[34.813151] (msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/message2_subscriber_class.dir/src/message2_subscriber_class.cpp.o\x1b[0m\n'}
+[34.881152] (-) TimerEvent: {}
+[34.981793] (-) TimerEvent: {}
+[35.082607] (-) TimerEvent: {}
+[35.183002] (-) TimerEvent: {}
+[35.283549] (-) TimerEvent: {}
+[35.383952] (-) TimerEvent: {}
+[35.484319] (-) TimerEvent: {}
+[35.584671] (-) TimerEvent: {}
+[35.685215] (-) TimerEvent: {}
+[35.785556] (-) TimerEvent: {}
+[35.885978] (-) TimerEvent: {}
+[35.986786] (-) TimerEvent: {}
+[36.087451] (-) TimerEvent: {}
+[36.187809] (-) TimerEvent: {}
+[36.288171] (-) TimerEvent: {}
+[36.388578] (-) TimerEvent: {}
+[36.488925] (-) TimerEvent: {}
+[36.589292] (-) TimerEvent: {}
+[36.689804] (-) TimerEvent: {}
+[36.790430] (-) TimerEvent: {}
+[36.891271] (-) TimerEvent: {}
+[36.926809] (msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/message2_subscriber_class.dir/src/m2sub.cpp.o\x1b[0m\n'}
+[36.991581] (-) TimerEvent: {}
+[37.092042] (-) TimerEvent: {}
+[37.192482] (-) TimerEvent: {}
+[37.293262] (-) TimerEvent: {}
+[37.393615] (-) TimerEvent: {}
+[37.494412] (-) TimerEvent: {}
+[37.594896] (-) TimerEvent: {}
+[37.695750] (-) TimerEvent: {}
+[37.796558] (-) TimerEvent: {}
+[37.897390] (-) TimerEvent: {}
+[37.998181] (-) TimerEvent: {}
+[38.098590] (-) TimerEvent: {}
+[38.199250] (-) TimerEvent: {}
+[38.299603] (-) TimerEvent: {}
+[38.399999] (-) TimerEvent: {}
+[38.500851] (-) TimerEvent: {}
+[38.601424] (-) TimerEvent: {}
+[38.701829] (-) TimerEvent: {}
+[38.802229] (-) TimerEvent: {}
+[38.902599] (-) TimerEvent: {}
+[39.003162] (-) TimerEvent: {}
+[39.103549] (-) TimerEvent: {}
+[39.203945] (-) TimerEvent: {}
+[39.304690] (-) TimerEvent: {}
+[39.405090] (-) TimerEvent: {}
+[39.505543] (-) TimerEvent: {}
+[39.606376] (-) TimerEvent: {}
+[39.706728] (-) TimerEvent: {}
+[39.807094] (-) TimerEvent: {}
+[39.907441] (-) TimerEvent: {}
+[40.008010] (-) TimerEvent: {}
+[40.108635] (-) TimerEvent: {}
+[40.209459] (-) TimerEvent: {}
+[40.309823] (-) TimerEvent: {}
+[40.410169] (-) TimerEvent: {}
+[40.510986] (-) TimerEvent: {}
+[40.611647] (-) TimerEvent: {}
+[40.712104] (-) TimerEvent: {}
+[40.812996] (-) TimerEvent: {}
+[40.913780] (-) TimerEvent: {}
+[41.014162] (-) TimerEvent: {}
+[41.114571] (-) TimerEvent: {}
+[41.214923] (-) TimerEvent: {}
+[41.315786] (-) TimerEvent: {}
+[41.416599] (-) TimerEvent: {}
+[41.516940] (-) TimerEvent: {}
+[41.617286] (-) TimerEvent: {}
+[41.717662] (-) TimerEvent: {}
+[41.818665] (-) TimerEvent: {}
+[41.919105] (-) TimerEvent: {}
+[42.019903] (-) TimerEvent: {}
+[42.120251] (-) TimerEvent: {}
+[42.220947] (-) TimerEvent: {}
+[42.321371] (-) TimerEvent: {}
+[42.421744] (-) TimerEvent: {}
+[42.522136] (-) TimerEvent: {}
+[42.622597] (-) TimerEvent: {}
+[42.723123] (-) TimerEvent: {}
+[42.823678] (-) TimerEvent: {}
+[42.834688] (msg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable message2_subscriber_class\x1b[0m\n'}
+[42.923987] (-) TimerEvent: {}
+[43.025041] (-) TimerEvent: {}
+[43.083817] (msg) StdoutLine: {'line': b'[ 60%] Built target message2_subscriber_class\n'}
+[43.101994] (msg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/message_time_subscriber_class.cpp.o\x1b[0m\n'}
+[43.125175] (-) TimerEvent: {}
+[43.225611] (-) TimerEvent: {}
+[43.326227] (-) TimerEvent: {}
+[43.427055] (-) TimerEvent: {}
+[43.527912] (-) TimerEvent: {}
+[43.628438] (-) TimerEvent: {}
+[43.728791] (-) TimerEvent: {}
+[43.829271] (-) TimerEvent: {}
+[43.929839] (-) TimerEvent: {}
+[44.030237] (-) TimerEvent: {}
+[44.130977] (-) TimerEvent: {}
+[44.231353] (-) TimerEvent: {}
+[44.332123] (-) TimerEvent: {}
+[44.432799] (-) TimerEvent: {}
+[44.533465] (-) TimerEvent: {}
+[44.634011] (-) TimerEvent: {}
+[44.734373] (-) TimerEvent: {}
+[44.834974] (-) TimerEvent: {}
+[44.935547] (-) TimerEvent: {}
+[45.035994] (-) TimerEvent: {}
+[45.136316] (-) TimerEvent: {}
+[45.236654] (-) TimerEvent: {}
+[45.238938] (msg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/mtsub.cpp.o\x1b[0m\n'}
+[45.336940] (-) TimerEvent: {}
+[45.437505] (-) TimerEvent: {}
+[45.537948] (-) TimerEvent: {}
+[45.639216] (-) TimerEvent: {}
+[45.739638] (-) TimerEvent: {}
+[45.840028] (-) TimerEvent: {}
+[45.940610] (-) TimerEvent: {}
+[46.041228] (-) TimerEvent: {}
+[46.142004] (-) TimerEvent: {}
+[46.242713] (-) TimerEvent: {}
+[46.343249] (-) TimerEvent: {}
+[46.443611] (-) TimerEvent: {}
+[46.543957] (-) TimerEvent: {}
+[46.644459] (-) TimerEvent: {}
+[46.745224] (-) TimerEvent: {}
+[46.846053] (-) TimerEvent: {}
+[46.946394] (-) TimerEvent: {}
+[47.046770] (-) TimerEvent: {}
+[47.147184] (-) TimerEvent: {}
+[47.247695] (-) TimerEvent: {}
+[47.348460] (-) TimerEvent: {}
+[47.449219] (-) TimerEvent: {}
+[47.549608] (-) TimerEvent: {}
+[47.650048] (-) TimerEvent: {}
+[47.750683] (-) TimerEvent: {}
+[47.851553] (-) TimerEvent: {}
+[47.952779] (-) TimerEvent: {}
+[48.053399] (-) TimerEvent: {}
+[48.153738] (-) TimerEvent: {}
+[48.254177] (-) TimerEvent: {}
+[48.354974] (-) TimerEvent: {}
+[48.455795] (-) TimerEvent: {}
+[48.556159] (-) TimerEvent: {}
+[48.656527] (-) TimerEvent: {}
+[48.756983] (-) TimerEvent: {}
+[48.857421] (-) TimerEvent: {}
+[48.957832] (-) TimerEvent: {}
+[49.058449] (-) TimerEvent: {}
+[49.159177] (-) TimerEvent: {}
+[49.260038] (-) TimerEvent: {}
+[49.360450] (-) TimerEvent: {}
+[49.461304] (-) TimerEvent: {}
+[49.562109] (-) TimerEvent: {}
+[49.663000] (-) TimerEvent: {}
+[49.763354] (-) TimerEvent: {}
+[49.863682] (-) TimerEvent: {}
+[49.964056] (-) TimerEvent: {}
+[50.064396] (-) TimerEvent: {}
+[50.165123] (-) TimerEvent: {}
+[50.265459] (-) TimerEvent: {}
+[50.365846] (-) TimerEvent: {}
+[50.466394] (-) TimerEvent: {}
+[50.566757] (-) TimerEvent: {}
+[50.667607] (-) TimerEvent: {}
+[50.768381] (-) TimerEvent: {}
+[50.868967] (-) TimerEvent: {}
+[50.969699] (-) TimerEvent: {}
+[51.070026] (-) TimerEvent: {}
+[51.170466] (-) TimerEvent: {}
+[51.270799] (-) TimerEvent: {}
+[51.371244] (-) TimerEvent: {}
+[51.471601] (-) TimerEvent: {}
+[51.571976] (-) TimerEvent: {}
+[51.672383] (-) TimerEvent: {}
+[51.772825] (-) TimerEvent: {}
+[51.873155] (-) TimerEvent: {}
+[51.973532] (-) TimerEvent: {}
+[52.073914] (-) TimerEvent: {}
+[52.174394] (-) TimerEvent: {}
+[52.274756] (-) TimerEvent: {}
+[52.375459] (-) TimerEvent: {}
+[52.476089] (-) TimerEvent: {}
+[52.576763] (-) TimerEvent: {}
+[52.677297] (-) TimerEvent: {}
+[52.777969] (-) TimerEvent: {}
+[52.872259] (msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable message_time_subscriber_class\x1b[0m\n'}
+[52.879336] (-) TimerEvent: {}
+[52.979672] (-) TimerEvent: {}
+[53.080473] (-) TimerEvent: {}
+[53.181107] (-) TimerEvent: {}
+[53.227243] (msg) StdoutLine: {'line': b'[ 80%] Built target message_time_subscriber_class\n'}
+[53.244769] (msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o\x1b[0m\n'}
+[53.245239] (msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/tpub.cpp.o\x1b[0m\n'}
+[53.281273] (-) TimerEvent: {}
+[53.384334] (-) TimerEvent: {}
+[53.485269] (-) TimerEvent: {}
+[53.586869] (-) TimerEvent: {}
+[53.688200] (-) TimerEvent: {}
+[53.788985] (-) TimerEvent: {}
+[53.889693] (-) TimerEvent: {}
+[53.991501] (-) TimerEvent: {}
+[54.094433] (-) TimerEvent: {}
+[54.195144] (-) TimerEvent: {}
+[54.295544] (-) TimerEvent: {}
+[54.397151] (-) TimerEvent: {}
+[54.499977] (-) TimerEvent: {}
+[54.600800] (-) TimerEvent: {}
+[54.701567] (-) TimerEvent: {}
+[54.804385] (-) TimerEvent: {}
+[54.905608] (-) TimerEvent: {}
+[55.006386] (-) TimerEvent: {}
+[55.107071] (-) TimerEvent: {}
+[55.209589] (-) TimerEvent: {}
+[55.311200] (-) TimerEvent: {}
+[55.412201] (-) TimerEvent: {}
+[55.512917] (-) TimerEvent: {}
+[55.613367] (-) TimerEvent: {}
+[55.713767] (-) TimerEvent: {}
+[55.814379] (-) TimerEvent: {}
+[55.914722] (-) TimerEvent: {}
+[56.015123] (-) TimerEvent: {}
+[56.115986] (-) TimerEvent: {}
+[56.216330] (-) TimerEvent: {}
+[56.316706] (-) TimerEvent: {}
+[56.417094] (-) TimerEvent: {}
+[56.518524] (-) TimerEvent: {}
+[56.583449] (msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable time_publisher_class\x1b[0m\n'}
+[56.619058] (-) TimerEvent: {}
+[56.714151] (msg) StdoutLine: {'line': b'[100%] Built target time_publisher_class\n'}
+[56.719411] (-) TimerEvent: {}
+[56.724946] (msg) CommandEnded: {'returncode': 0}
+[56.771519] (msg) JobProgress: {'identifier': 'msg', 'progress': 'install'}
+[56.771579] (msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hansollee/kdta_ROS2_workspace/build/msg'], 'cwd': '/home/hansollee/kdta_ROS2_workspace/build/msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'hansollee'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/hansollee'), ('OLDPWD', '/home/hansollee'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('SYSTEMD_EXEC_PID', '1720'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15174'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansollee'), ('JOURNAL_STREAM', '8:37247'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansollee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansollee-virtual-machine:@/tmp/.ICE-unix/1700,unix/hansollee-virtual-machine:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '2d4602df82c847a88caf844859ba1982'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NF6IS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c519bb6-54da-4e90-aa32-9fdcdc5bae79'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansollee/kdta_ROS2_workspace/build/msg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[56.778343] (msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.778683] (msg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[56.778989] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message_publisher_class\n'}
+[56.786680] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message_subscriber_class\n'}
+[56.793771] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message2_subscriber_class\n'}
+[56.800797] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/message_time_subscriber_class\n'}
+[56.806435] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/lib/msg/time_publisher_class\n'}
+[56.813643] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/launch/tmpubsub.launch.py\n'}
+[56.819507] (-) TimerEvent: {}
+[56.820407] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/param/turtlesim.yaml\n'}
+[56.827077] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/ament_index/resource_index/package_run_dependencies/msg\n'}
+[56.833823] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/ament_index/resource_index/parent_prefix_path/msg\n'}
+[56.841248] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/ament_prefix_path.sh\n'}
+[56.849261] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/ament_prefix_path.dsv\n'}
+[56.856118] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/path.sh\n'}
+[56.865239] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/environment/path.dsv\n'}
+[56.872863] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.bash\n'}
+[56.879929] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.sh\n'}
+[56.887807] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.zsh\n'}
+[56.894325] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/local_setup.dsv\n'}
+[56.901094] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.dsv\n'}
+[56.907951] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/ament_index/resource_index/packages/msg\n'}
+[56.914582] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/cmake/msgConfig.cmake\n'}
+[56.919653] (-) TimerEvent: {}
+[56.921629] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/cmake/msgConfig-version.cmake\n'}
+[56.929181] (msg) StdoutLine: {'line': b'-- Symlinking: /home/hansollee/kdta_ROS2_workspace/install/msg/share/msg/package.xml\n'}
+[56.940656] (msg) CommandEnded: {'returncode': 0}
+[56.990285] (msg) JobEnded: {'identifier': 'msg', 'rc': 0}
+[56.991043] (-) EventReactorShutdown: {}

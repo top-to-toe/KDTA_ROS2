@@ -1,0 +1,126 @@
+[0.009s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/arithmetic
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.341s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.423s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.554s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.636s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.692s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.761s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.769s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.783s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.803s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.927s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.931s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.042s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.066s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Looking for pthread.h
+[1.192s] -- Looking for pthread.h - found
+[1.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.247s] -- Found Threads: TRUE  
+[1.382s] -- Found interface_example: 0.0.0 (/home/hansollee/kdta_ROS2_workspace/install/interface_example/share/interface_example/cmake)
+[1.507s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.539s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.633s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.633s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/arithmetic/include
+[1.633s] -- Configured cppcheck exclude dirs and/or files: 
+[1.635s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.636s] -- Added test 'lint_cmake' to check CMake code style
+[1.636s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.637s] -- Added test 'uncrustify' to check C / C++ code style
+[1.637s] -- Configured uncrustify additional arguments: 
+[1.639s] -- Added test 'xmllint' to check XML markup files
+[1.641s] -- Configuring done
+[1.653s] -- Generating done
+[1.654s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/arithmetic
+[1.664s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '0': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/arithmetic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/arithmetic
+[1.664s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2
+[1.703s] [ 14%] [32mBuilding CXX object CMakeFiles/argument.dir/src/arithmetic/argument.cpp.o[0m
+[1.703s] [ 28%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o[0m
+[5.357s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::sub_callback(interface_example::msg::ArithmeticArgument_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.357s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:24:46:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.357s]    24 |     _operator_str = std::to_string(_sub_a) + [01;31m[Koperator_str[m[K + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
+[5.357s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[5.357s]       |                                              [32m[K_operator_str[m[K
+[5.368s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::service_callback(std::shared_ptr<interface_example::srv::ArithmeticOperator_Request_<std::allocator<void> > >, std::shared_ptr<interface_example::srv::ArithmeticOperator_Response_<std::allocator<void> > >)[m[K’:
+[5.368s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.368s]    35 |         [01;31m[Koperator_str[m[K = "+";
+[5.368s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.368s]       |         [32m[K_operator_str[m[K
+[5.372s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.372s]    40 |         [01;31m[Koperator_str[m[K = "-";
+[5.372s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.372s]       |         [32m[K_operator_str[m[K
+[5.376s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.376s]    45 |         [01;31m[Koperator_str[m[K = "*";
+[5.376s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.376s]       |         [32m[K_operator_str[m[K
+[5.380s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.380s]    53 |             [01;31m[Koperator_str[m[K = "/";
+[5.380s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[5.380s]       |             [32m[K_operator_str[m[K
+[5.383s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.383s]    58 |             [01;31m[Koperator_str[m[K = "/";
+[5.383s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[5.383s]       |             [32m[K_operator_str[m[K
+[5.386s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:65:46:[m[K [01;31m[Kerror: [m[K‘[01m[Koperator_str[m[K’ was not declared in this scope; did you mean ‘[01m[K_operator_str[m[K’?
+[5.386s]    65 |     _operator_str = std::to_string(_sub_a) + [01;31m[Koperator_str[m[K + std::to_string(_sub_b) + "=" + std::to_string(_argument_result);
+[5.386s]       |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[5.386s]       |                                              [32m[K_operator_str[m[K
+[5.394s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:[m[K In member function ‘[01m[Kvoid Calculator::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<interface_example::action::ArithmeticChecker> >)[m[K’:
+[5.394s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:97:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kinterface_example::action::ArithmeticChecker_Feedback_<std::allocator<void> >::_formula_type[m[K’ {aka ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >[m[K’} and ‘[01m[Kconst char*[m[K’)
+[5.394s]    97 |         feedback->formula = _operator_str.c_str([01;31m[K)[m[K;
+[5.394s]       |                                                 [01;31m[K^[m[K
+[5.395s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[5.395s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[5.395s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[5.395s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/detail/arithmetic_checker__struct.hpp:8[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/arithmetic_checker.hpp:7[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/calculator/calculator.hpp:4[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:1[m[K:
+[5.396s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[5.396s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[5.396s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.396s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&[m[K’
+[5.396s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[5.396s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.396s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[5.396s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[5.396s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[5.396s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/detail/arithmetic_checker__struct.hpp:8[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/build/interface_example/rosidl_generator_cpp/interface_example/action/arithmetic_checker.hpp:7[m[K,
+[5.396s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/include/calculator/calculator.hpp:4[m[K,
+[5.397s]                  from [01m[K/home/hansollee/kdta_ROS2_workspace/src/arithmetic/src/calculator/calculator.cpp:1[m[K:
+[5.397s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[5.397s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[5.397s]       |       [01;36m[K^~~~~~~~[m[K
+[5.397s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&&[m[K’
+[5.397s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[5.397s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[5.397s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[5.397s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[5.397s]       |       [01;36m[K^~~~~~~~[m[K
+[5.397s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kstd::initializer_list<std::__cxx11::basic_string<char> >[m[K’
+[5.397s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[5.397s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.455s] gmake[2]: *** [CMakeFiles/calculator.dir/build.make:76: CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o] 오류 1
+[8.456s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/calculator.dir/all] 오류 2
+[8.456s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[10.775s] [ 42%] [32m[1mLinking CXX executable argument[0m
+[11.157s] [ 42%] Built target argument
+[11.158s] gmake: *** [Makefile:146: all] 오류 2
+[11.160s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/arithmetic' returned '2': CMAKE_PREFIX_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_simulations:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_gazebo:/home/hansollee/kdta_ROS2_workspace/install/turtlebot3_fake_node:/home/hansollee/kdta_ROS2_workspace/install/simple_pkg_cpp:/home/hansollee/kdta_ROS2_workspace/install/msg:/home/hansollee/kdta_ROS2_workspace/install/move_t_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/hansollee/kdta_ROS2_workspace/install/interface_example/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/arithmetic -- -j2 -l2
