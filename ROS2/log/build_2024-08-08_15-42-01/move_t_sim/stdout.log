@@ -1,0 +1,8 @@
+[ 15%] Built target moveTurtleSim
+[ 31%] Built target moveTurtleBot
+[ 47%] Built target moveTurtleBot2
+[ 57%] Built target rotate_turtle
+[ 68%] Built target canny_camera
+[ 78%] Built target canny_camera2
+[ 89%] Built target simple_ridar
+[ 94%] [32mBuilding CXX object CMakeFiles/stay_thirty.dir/src/stay_thirty.cpp.o[0m

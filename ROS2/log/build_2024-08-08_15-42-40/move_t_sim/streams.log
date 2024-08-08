@@ -1,0 +1,18 @@
+[0.017s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
+[0.093s] [ 15%] Built target moveTurtleSim
+[0.121s] [ 31%] Built target moveTurtleBot
+[0.153s] [ 47%] Built target moveTurtleBot2
+[0.176s] [ 57%] Built target rotate_turtle
+[0.220s] [ 68%] Built target canny_camera
+[0.227s] [ 78%] Built target canny_camera2
+[0.279s] [35m[1mConsolidate compiler generated dependencies of target stay_thirty[0m
+[0.286s] [ 89%] Built target simple_ridar
+[0.312s] [ 94%] [32mBuilding CXX object CMakeFiles/stay_thirty.dir/src/stay_thirty.cpp.o[0m
+[2.898s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/stay_thirty.cpp:[m[K In constructor ‘[01m[KLaserSensor::LaserSensor()[m[K’:
+[2.898s] [01m[K/home/hansollee/kdta_ROS2_workspace/src/move_t_sim/src/stay_thirty.cpp:21:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kup[m[K’ is not a member of ‘[01m[KLaserSensor[m[K’
+[2.898s]    21 |         _update_timer = create_wall_timer(10ms, std::bind(&LaserSensor::[01;31m[Kup[m[K, this));
+[2.899s]       |                                                                         [01;31m[K^~[m[K
+[4.895s] gmake[2]: *** [CMakeFiles/stay_thirty.dir/build.make:76: CMakeFiles/stay_thirty.dir/src/stay_thirty.cpp.o] 오류 1
+[4.898s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/stay_thirty.dir/all] 오류 2
+[4.899s] gmake: *** [Makefile:146: all] 오류 2
+[4.899s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/move_t_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/move_t_sim -- -j2 -l2
