@@ -134,5 +134,5 @@ alias nb='sudo nano ~/.bashrc'
 
 alias killgazebo='killall -9 gazebo & killall -9 gzserver  & killall -9 gzclient'
 
-export ROS_DOMAIN_ID=3
+export ROS_DOMAIN_ID=7
 export TURTLEBOT3_MODEL=burger

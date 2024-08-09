@@ -1,0 +1,67 @@
+[0.007s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/msg
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.489s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.545s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.618s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.620s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.723s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.775s] -- Looking for pthread.h
+[0.859s] -- Looking for pthread.h - found
+[0.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.935s] -- Found Threads: TRUE  
+[0.975s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.055s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.056s] -- Configured cppcheck include dirs: /home/hansollee/kdta_ROS2_workspace/src/msg/include
+[1.056s] -- Configured cppcheck exclude dirs and/or files: 
+[1.056s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.057s] -- Added test 'lint_cmake' to check CMake code style
+[1.058s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.059s] -- Added test 'uncrustify' to check C / C++ code style
+[1.059s] -- Configured uncrustify additional arguments: 
+[1.060s] -- Added test 'xmllint' to check XML markup files
+[1.061s] -- Configuring done
+[1.080s] -- Generating done
+[1.082s] -- Build files have been written to: /home/hansollee/kdta_ROS2_workspace/build/msg
+[1.095s] Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hansollee/kdta_ROS2_workspace/src/msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hansollee/kdta_ROS2_workspace/install/msg
+[1.095s] Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/msg -- -j2 -l2
+[1.151s] [  6%] [32mBuilding CXX object CMakeFiles/message_publisher_class.dir/src/message_publisher_class.cpp.o[0m
+[4.243s] [ 13%] [32mBuilding CXX object CMakeFiles/message_publisher_class.dir/src/mpub.cpp.o[0m
+[8.660s] [ 20%] [32m[1mLinking CXX executable message_publisher_class[0m
+[8.857s] [ 20%] Built target message_publisher_class
+[8.883s] [ 26%] [32mBuilding CXX object CMakeFiles/message_subscriber_class.dir/src/message_subscriber_class.cpp.o[0m
+[11.901s] [ 33%] [32mBuilding CXX object CMakeFiles/message_subscriber_class.dir/src/msub.cpp.o[0m
+[20.311s] [ 40%] [32m[1mLinking CXX executable message_subscriber_class[0m
+[20.693s] [ 40%] Built target message_subscriber_class
+[20.717s] [ 46%] [32mBuilding CXX object CMakeFiles/message2_subscriber_class.dir/src/message2_subscriber_class.cpp.o[0m
+[23.757s] [ 53%] [32mBuilding CXX object CMakeFiles/message2_subscriber_class.dir/src/m2sub.cpp.o[0m
+[32.109s] [ 60%] [32m[1mLinking CXX executable message2_subscriber_class[0m
+[32.441s] [ 60%] Built target message2_subscriber_class
+[32.463s] [ 66%] [32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/message_time_subscriber_class.cpp.o[0m
+[35.630s] [ 73%] [32mBuilding CXX object CMakeFiles/message_time_subscriber_class.dir/src/mtsub.cpp.o[0m
+[45.191s] [ 80%] [32m[1mLinking CXX executable message_time_subscriber_class[0m
+[45.677s] [ 80%] Built target message_time_subscriber_class
+[45.705s] [ 86%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o[0m
+[48.227s] [ 93%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/tpub.cpp.o[0m
+[51.965s] [100%] [32m[1mLinking CXX executable time_publisher_class[0m
+[52.140s] [100%] Built target time_publisher_class

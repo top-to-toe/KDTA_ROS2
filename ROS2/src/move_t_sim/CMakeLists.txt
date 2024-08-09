@@ -63,6 +63,7 @@ install(TARGETS
   simple_ridar
   stay_thirty
   follow_wall
+
   DESTINATION lib/${PROJECT_NAME}
 )
 

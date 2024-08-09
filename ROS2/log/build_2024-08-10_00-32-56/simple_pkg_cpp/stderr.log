@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findinterface_example.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "interface_example", but CMake did not find one.
+
+  Could not find a package configuration file provided by "interface_example"
+  with any of the following names:
+
+    interface_exampleConfig.cmake
+    interface_example-config.cmake
+
+  Add the installation prefix of "interface_example" to CMAKE_PREFIX_PATH or
+  set "interface_example_DIR" to a directory containing one of the above
+  files.  If "interface_example" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
