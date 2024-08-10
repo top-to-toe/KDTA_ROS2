@@ -1,4 +1,0 @@
-Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations -- -j2 -l2
-Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations -- -j2 -l2
-Invoking command in '/home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations
-Invoked command in '/home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hansollee/kdta_ROS2_workspace/build/turtlebot3_simulations

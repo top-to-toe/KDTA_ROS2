@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target calculator[0m
-[ 20%] Built target argument
-[ 40%] Built target operator
-[ 50%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o[0m
-[35m[1mConsolidate compiler generated dependencies of target checker[0m
-[ 80%] Built target checker
