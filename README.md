@@ -217,7 +217,6 @@ pip3 install numpy
 - cascade
 - HogDescriptor
 
-
 ---
 
 ## 2024-07-30
@@ -226,7 +225,6 @@ pip3 install numpy
 
 ## [ROS2]
 
-- ROS2 시작
 - ROS2 개념
   - 노드
   - 토픽
@@ -260,7 +258,6 @@ pip3 install numpy
 
 ---
 
-- 복습
 - 패키지 작성 (이어서)
   - kdta_ROS2_workspace
     - simple_pkg_cpp 패키지
@@ -287,7 +284,6 @@ pip3 install numpy
 
 ---
 
-- 복습
 - 터틀봇3 네트워크 설정
   - 공유기 설치
     - ssid: turtle
@@ -340,7 +336,6 @@ pip3 install numpy
 
 ---
 
-- 복습
 - 터틀심 사각형 움직임 구현 -> 터틀봇 용 코드로 변경
   - moveTurtleBot2.cpp 작성
   - 세부 알고리즘 변경
@@ -368,7 +363,6 @@ pip3 install numpy
 
 ---
 
-- 복습
 - 파라미터 코드 적용
   - param_events topic 활용.
   - 파라미터 변경시 이벤트 발생
